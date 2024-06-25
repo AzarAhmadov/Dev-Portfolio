@@ -11,6 +11,7 @@ const config: Config = {
       center: true
     },
     fontWeight: {
+      thin: '300',
       normal: '400',
       medium: '500',
       semibold: '600',
@@ -25,7 +26,6 @@ const config: Config = {
         'icons-bg': '#999',
         'black': "#111111",
         'gray': '#666666'
-
       },
     },
   },
