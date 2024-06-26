@@ -7,7 +7,7 @@ import React from 'react'
 const Hero = () => {
     return (
         <section>
-            <div className="container pt-5 flex justify-center items-center flex-col">
+            <div className="pt-5 flex justify-center items-center flex-col">
                 <div className="w-[340px] relative h-[340px] rounded-full border-[10px] border-[#00000009]">
                     <Image className='rounded-full object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
                 </div>
