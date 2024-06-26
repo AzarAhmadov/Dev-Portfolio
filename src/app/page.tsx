@@ -8,7 +8,7 @@ import React from 'react'
 const page = () => {
   return (
     <>
-      <div className='container px-5'>
+      <div className='container px-3 md:px-5'>
         <Header />
         <main>
           <Hero />
