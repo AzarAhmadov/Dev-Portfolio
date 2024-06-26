@@ -16,7 +16,6 @@ const page = () => {
           <Projects />
         </main>
       </div>
-      <Footer />
     </>
   )
 }
