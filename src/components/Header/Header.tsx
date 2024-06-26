@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Header: FC = () => {
     return (
-        <header className='py-6 bg-gray-100'>
+        <header className='py-6'>
             <div className="container">
                 <div className="row flex justify-between items-center">
                     <div className="h-left">
