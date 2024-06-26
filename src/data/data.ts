@@ -39,6 +39,46 @@ export const StackData = [
         logo: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
         link: "https://nextjs.org/"
     },
+    {
+        name: "Redux Toolkit",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYiSZ7pgNHIi4X9la9Z1_oHsBpntPBeY6fA&s",
+        link: "https://redux-toolkit.js.org/"
+    },
+    {
+        name: "Tailwind",
+        logo: "https://embed.zenn.studio/api/optimize-og-image/4ba991361fab03d3e8bb/https%3A%2F%2Fbradlc.gallerycdn.vsassets.io%2Fextensions%2Fbradlc%2Fvscode-tailwindcss%2F0.11.23%2F1698428742844%2FMicrosoft.VisualStudio.Services.Icons.Default",
+        link: "https://tailwindcss.com/"
+    },
+    {
+        name: "Mongo DB",
+        logo: "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg",
+        link: "https://www.mongodb.com//"
+    },
+    {
+        name: "Git",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGp2RKrzqJF2Cu3dxnk2RGK_F7SSloJG-Wyw&s",
+        link: "https://git-scm.com/"
+    },
+    {
+        name: "Github",
+        logo: "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png",
+        link: "https://github.com/"
+    },
+    {
+        name: "Figma",
+        logo: "https://i.pinimg.com/736x/e7/9f/34/e79f34fc5eafb51f237483f03b4cc089.jpg",
+        link: "https://figma.com/"
+    },
+    {
+        name: "Adobe XD",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4K8bhGu6U6q6IifoEU3dL517sKq4ARzrSXg&s",
+        link: "https://adobexdplatform.com/"
+    },
+    {
+        name: "Npm",
+        logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8xnsqiqfHuxPLLcgalu5_4V9c0zuc2_VyA&s",
+        link: "https://www.npmjs.com//"
+    },
 ]
 
 export const ProjectsData = [
