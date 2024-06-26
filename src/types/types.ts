@@ -1,3 +1,5 @@
+import { ReactElement } from "react"
+
 // Heading Type
 export type HeadingType = {
     title: string
@@ -29,3 +31,8 @@ type Project = {
 export type ProjectsDataType = {
     item: Project;
 };
+
+export type TitleType = {
+    title: string
+    icon: ReactElement
+}
