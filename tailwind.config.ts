@@ -27,8 +27,19 @@ const config: Config = {
         'black': "#111111",
         'gray': '#666666'
       },
+      keyframes: {
+        borderPulse: {
+          '0%': { 'box-shadow': '0 0 0 0 rgba(8, 128, 70, 0.7)' },
+          '70%': { 'box-shadow': '0 0 7px 7px rgba(8, 128, 70, 0)' },
+          '100%': { 'box-shadow': '0 0 0 0 rgba(8, 128, 70, 0)' },
+        },
+      },
+      animation: {
+        borderPulse: 'borderPulse 2s infinite',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

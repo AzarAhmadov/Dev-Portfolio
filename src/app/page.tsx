@@ -7,15 +7,17 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='container'>
-      <Header />
-      <main>
-        <Hero />
-        <Stack />
-        <Projects />
-      </main>
+    <>
+      <div className='container px-5'>
+        <Header />
+        <main>
+          <Hero />
+          <Stack />
+          <Projects />
+        </main>
+      </div>
       <Footer />
-    </div>
+    </>
   )
 }
 

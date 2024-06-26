@@ -9,9 +9,9 @@ const Header: FC = () => {
         <header className='py-6'>
             <div className='flex justify-between items-center'>
                 <div>
-                    <span className='relative bg-aviable-bg text-green font-normal rounded-full py-2 px-5'>
+                    <span className='relative ps-7 pe-5 bg-aviable-bg text-green font-normal rounded-full py-2'>
                         Available for work
-                        <span className='absolute flex left-[10px] top-1/2 transform -translate-y-1/2 w-[5px] h-[5px] bg-green rounded-full'></span>
+                        <span className='absolute flex left-[13px] top-1/2 transform -translate-y-1/2 animate-borderPulse w-[8px] h-[8px] bg-green rounded-full'></span>
                     </span>
                 </div>
                 <div>

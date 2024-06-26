@@ -6,7 +6,7 @@ import { IoMdArrowForward } from 'react-icons/io'
 
 const Footer = () => {
     return (
-        <footer className='flex flex-col items-center justify-center pt-10 pb-10'>
+        <footer className='flex flex-col items-center justify-center pt-8 pb-8 border-t-[1px] border-t-[#00000013]'>
             <h4 className='text-center text-black text-[23px]'>
                 Have a <br />
                 Project Idea?
