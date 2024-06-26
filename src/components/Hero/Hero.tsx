@@ -2,13 +2,14 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { IoMdArrowForward } from "react-icons/io";
 import { BiMap } from "react-icons/bi";
+import { MdOutlineFileDownload } from "react-icons/md";
 import React from 'react'
 
 const Hero = () => {
     return (
         <section>
             <div className="pt-5 flex justify-center items-center flex-col">
-                <div className="w-[340px] relative h-[340px] rounded-full border-[10px] border-[#00000009]">
+                <div className="w-[320px] relative h-[320px] rounded-full border-[10px] border-[#00000009]">
                     <Image className='rounded-full object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
                 </div>
                 <div className='text-center pt-3 px-[70px]'>
@@ -23,10 +24,14 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <div className="container flex justify-between items-center pt-10">
+            <div className="container flex justify-between items-center pt-[70px]">
                 <span className='flex items-center gap-2 text-[17px]'>
                     <BiMap className='text-[20px]' />  Baku, Azerbaijan
                 </span>
+                <a href="#" className='bg-black text-white hover:bg-transparent hover:border-[1px] hover:
+                border-[#00000071] hover:text-black transition-all hover:scale-90 gap-2 rounded-full px-6 py-3 flex items-center'>
+                    My Cv <MdOutlineFileDownload className='text-[22px]' />
+                </a>
                 <Link className='flex items-center gap-2 px-5 py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
             </div>
         </section>
