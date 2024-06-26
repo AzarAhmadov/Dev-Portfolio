@@ -32,7 +32,7 @@ const Hero = () => {
                 border-[#00000071] hover:text-black transition-all md:text-[17px] text-[15px] hover:scale-90 gap-2 rounded-full md:px-5 md:py-3 py-2 px-4 flex items-center'>
                     My Cv <MdOutlineFileDownload className='text-[22px]' />
                 </a>
-                <Link className=' md:text-[17px] text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
+                <Link className=' md:text-[17px] text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-sm border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
             </div>
         </section>
     )
