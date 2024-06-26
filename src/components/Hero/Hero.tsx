@@ -8,19 +8,19 @@ import React from 'react'
 const Hero = () => {
     return (
         <section>
-            <div className='pt-3 md:pt-5 flex justify-center items-center flex-col'>
-                <div className="md:w-[320px] w-[260px] h-[260px] relative md:h-[320px] rounded-full border-[10px] border-[#00000009]">
+            <div className='pt-2 md:pt-5 flex justify-center items-center flex-col'>
+                <div className="md:w-[320px] w-[230px] h-[230px] relative md:h-[320px] rounded-full border-[10px] border-[#00000009]">
                     <Image className='rounded-full object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
                 </div>
                 <div className='text-center pt-3 md:px-[70px]'>
-                    <h1 className='color-black text-[24px] md:text-[40px] font-medium'>
+                    <h1 className='color-black text-[22px] md:text-[40px] font-medium'>
                         Hey! I'm Azar Ahmadov.
                     </h1>
-                    <h2 className='color-black text-[19px] md:text-[25px] font-normal mb-5'>
+                    <h2 className='color-black text-[17px] md:text-[25px] font-normal mb-5'>
                         Front-End Developer
                     </h2>
-                    <p className='text-[14px] leading-[22px] md:text-[17px] font-thin  md:leading-[26px] text-gray'>
-                        I currently reside in Baku. For about 4 years, I have been actively trying to improve my skills in the field of technology and constantly applying what I have learned. I had the opportunity to work in various technology companies, and I am pleased about that. My goal is to be a dedicated developer who loves his job and tries to do his best.
+                    <p className='text-[14px] leading-[20px] md:text-[17px] font-thin  md:leading-[26px] text-gray'>
+                        I currently reside in Baku. For about 4 years, I have been actively trying to improve my skills in the field of technology and constantly applying what I have learned. I had the opportunity to work in various technology companies, and I am pleased about that.
                     </p>
                 </div>
             </div>
@@ -29,10 +29,10 @@ const Hero = () => {
                     <BiMap className='text-[20px]' />  Baku, Azerbaijan
                 </span>
                 <a href="#" className='bg-black text-white hover:bg-transparent hover:border-[1px] hover:
-                border-[#00000071] hover:text-black transition-all hover:scale-90 gap-2 rounded-full px-6 py-3 flex items-center'>
+                border-[#00000071] hover:text-black transition-all md:text-[17px] text-[15px] hover:scale-90 gap-2 rounded-full md:px-5 md:py-3 py-2 px-4 flex items-center'>
                     My Cv <MdOutlineFileDownload className='text-[22px]' />
                 </a>
-                <Link className='flex items-center gap-2 px-5 py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
+                <Link className=' md:text-[17px] text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
             </div>
         </section>
     )
