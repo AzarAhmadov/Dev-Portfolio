@@ -5,8 +5,8 @@ import { TitleType } from '@/types/types';
 
 const Title: FC<TitleType> = ({ title, icon }) => {
     return (
-        <div>
-            <div className='flex items-center justify-between py-6'>
+        <div className='border-b-[1px] border-b-[#00000011] px-4'>
+            <div className='flex items-center justify-between py-5 container'>
                 <Link className='border-[1px] border-[#000] rounded-full px-3 py-2 hover:bg-black transition-all hover:text-white' href={'/'}> <GoArrowLeft className='text-[23px]' /> </Link>
                 <h3 className='justify-self-center font-medium text-[22px]'>
                     {title}
