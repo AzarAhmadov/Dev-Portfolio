@@ -280,7 +280,7 @@ export const ProjectsData = [
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
             },
             {
-                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
             },
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
@@ -299,7 +299,7 @@ export const ProjectsData = [
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
             },
             {
-                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
             },
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
@@ -350,7 +350,7 @@ export const ProjectsData = [
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
             },
             {
-                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
             },
         ]
     },
