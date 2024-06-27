@@ -28,7 +28,7 @@ const Hero = () => {
                 <span className='flex items-center gap-2 text-[17px]'>
                     <BiMap className='text-[20px]' />  Baku, Azerbaijan
                 </span>
-                <Link className=' md:text-[17px] text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-sm border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
+                <Link className=' md:text-[17px] text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-sm border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/about'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
                 <a href="#" className='bg-black text-white hover:bg-transparent hover:border-[1px] hover:
                 border-[#00000071] hover:text-black transition-all md:text-[17px] text-[15px] hover:scale-90 gap-2 rounded-full md:px-5 md:py-3 py-2 px-4 flex items-center'>
                     My Cv <MdOutlineFileDownload className='text-[22px]' />
