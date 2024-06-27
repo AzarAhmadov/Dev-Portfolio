@@ -27,8 +27,8 @@ const config: Config = {
       },
       keyframes: {
         borderPulse: {
-          '0%': { 'box-shadow': '0 0 0 0 rgba(8, 128, 70, 0.7)' },
-          '70%': { 'box-shadow': '0 0 7px 7px rgba(8, 128, 70, 0)' },
+          '0%': { 'box-shadow': '0 0 0 0 rgba(8, 128, 70, 4)' },
+          '50%': { 'box-shadow': '0 0 7px 7px rgba(8, 128, 620, 0)' },
           '100%': { 'box-shadow': '0 0 0 0 rgba(8, 128, 70, 0)' },
         },
       },
