@@ -30,6 +30,16 @@ export const StackData = [
         link: "https://getbootstrap.com/"
     },
     {
+        name: "Tailwind",
+        logo: "https://embed.zenn.studio/api/optimize-og-image/4ba991361fab03d3e8bb/https%3A%2F%2Fbradlc.gallerycdn.vsassets.io%2Fextensions%2Fbradlc%2Fvscode-tailwindcss%2F0.11.23%2F1698428742844%2FMicrosoft.VisualStudio.Services.Icons.Default",
+        link: "https://tailwindcss.com/"
+    },
+    {
+        name: "MUI",
+        logo: "https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/6aecc665-9f30-4dc7-bacc-880d8e66c7bb.png",
+        link: "https://mui.com/"
+    },
+    {
         name: "React",
         logo: "https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png",
         link: "https://react.dev/"
@@ -40,14 +50,19 @@ export const StackData = [
         link: "https://nextjs.org/"
     },
     {
+        name: "react-i18next",
+        logo: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4",
+        link: "https://react.i18next.com/"
+    },
+    {
+        name: "Next Auth",
+        logo: "https://pbs.twimg.com/profile_images/1370357699372810243/94fjvw_p_400x400.png",
+        link: "https://next-auth.js.org/"
+    },
+    {
         name: "Redux Toolkit",
         logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHYiSZ7pgNHIi4X9la9Z1_oHsBpntPBeY6fA&s",
         link: "https://redux-toolkit.js.org/"
-    },
-    {
-        name: "Tailwind",
-        logo: "https://embed.zenn.studio/api/optimize-og-image/4ba991361fab03d3e8bb/https%3A%2F%2Fbradlc.gallerycdn.vsassets.io%2Fextensions%2Fbradlc%2Fvscode-tailwindcss%2F0.11.23%2F1698428742844%2FMicrosoft.VisualStudio.Services.Icons.Default",
-        link: "https://tailwindcss.com/"
     },
     {
         name: "Mongo DB",
@@ -308,6 +323,22 @@ export const ProjectsData = [
             {
                 img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png"
             }
+        ]
+    },
+    {
+        name: "Portfolio",
+        link: "https://azarahmadov.vercel.app/",
+        img: "/p-14.png",
+        lang: [
+            {
+                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+            },
+            {
+                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            },
+            {
+                img: "https://media.licdn.com/dms/image/D4D12AQEYCFvOjhb8rQ/article-cover_image-shrink_600_2000/0/1679941246531?e=2147483647&v=beta&t=A3azwRlUOpX_tBCILj49HMVojFrvGUZO8vC_yBi_dkQ"
+            },
         ]
     },
     {
