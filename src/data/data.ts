@@ -295,6 +295,22 @@ export const ProjectsData = [
         ]
     },
     {
+        name: "Youtube Clone",
+        link: "https://youtube-clone-app-nextjs.vercel.app/",
+        img: "/p-13.png",
+        lang: [
+            {
+                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+            },
+            {
+                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            },
+            {
+                img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png"
+            }
+        ]
+    },
+    {
         name: "Recipe App",
         link: "https://react-food-recipe-app.vercel.app/",
         img: "/p-12.png",
