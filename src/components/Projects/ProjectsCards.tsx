@@ -7,7 +7,7 @@ import { ProjectsDataType } from '@/types/types'
 const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
     return (
         <div className='rounded-lg border-[1px] border-[#0000001d] shadow-sm'>
-            <div className='md:p-4 p-3 pb-0'>
+            <div className='ps-3 pe-3 pt-3'>
                 <div className="relative w-full h-[200px]  md:h-[250px] lg:h-[370px]">
                     <Image fill src={`${item.img}`} className='w-full object-cover rounded-[10px]' alt='app' />
                 </div>
