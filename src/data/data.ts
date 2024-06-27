@@ -164,4 +164,147 @@ export const ProjectsData = [
             },
         ]
     },
+    {
+        name: "Github Finder",
+        link: "https://githubsfinder.vercel.app/",
+        img: "/p-5.png",
+        lang: [
+            {
+                img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            },
+            {
+                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbmStvq6m2etalyaoEq0w3FGAXfz0B7JKSA&s"
+            }
+        ]
+    },
+    {
+        name: "Restaurant Menu",
+        link: "https://menuaz.vercel.app/",
+        img: "/p-6.png",
+        lang: [
+            {
+                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOh9MeoM2tSOTjjG3Yyn6zxGA_sBlgfDw6-Q&s",
+            },
+            {
+                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            },
+        ]
+    },
+    {
+        name: "Google Clone",
+        link: "https://google-clone-app-nextjs.vercel.app/",
+        img: "/p-7.png",
+        lang: [
+            {
+                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+            },
+            {
+                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+            },
+            {
+                img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp"
+            }
+        ]
+    },
+    {
+        name: "Blog App (Full Stack)",
+        link: "https://azarblog.vercel.app/",
+        img: "/p-8.png",
+        lang: [
+            {
+                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+            },
+            {
+                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+            },
+            {
+                img: "https://i.pinimg.com/474x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg"
+            },
+            {
+                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4"
+            },
+            {
+                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            },
+            {
+                img: "https://pbs.twimg.com/profile_images/1370357699372810243/94fjvw_p_400x400.png"
+            }
+        ]
+    },
+    {
+        name: "AuRum",
+        link: "https://au-rum.vercel.app/",
+        img: "/p-9.png",
+        lang: [
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+            },
+            {
+                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+            }
+        ]
+    },
+    {
+        name: "Makonu",
+        link: "https://makonu.vercel.app/index.html",
+        img: "/p-10.png",
+        lang: [
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+            },
+            {
+                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+            }
+        ]
+    },
+    {
+        name: "Texh",
+        link: "https://azarahmadov.github.io/Text-WebSite/index.html",
+        img: "/p-11.png",
+        lang: [
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+            },
+            {
+                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+            },
+            {
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+            }
+        ]
+    },
+    {
+        name: "Recipe App",
+        link: "https://react-food-recipe-app.vercel.app/",
+        img: "/p-12.png",
+        lang: [
+            {
+                img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+            },
+            {
+                img: "https://www.shareicon.net/download/2015/09/17/102374_css3_512x512.png",
+            },
+        ]
+    },
 ]
