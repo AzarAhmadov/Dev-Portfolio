@@ -7,7 +7,7 @@ import { IoCodeSlashSharp } from 'react-icons/io5'
 const page = () => {
     return (
         <>
-            <Title title={'My Tech Box'} icon={<IoCodeSlashSharp className='text-[30px]' />} />
+            <Title title={'My Tech Box'} icon={<IoCodeSlashSharp className='text-[25px]' />} />
             <div className='container px-3 pb-10 pt-4'>
                 <ul className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5'>
                     {

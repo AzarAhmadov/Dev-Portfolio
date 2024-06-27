@@ -8,7 +8,7 @@ const Projects = () => {
         <section className='md:pt-[50px] pb-10'>
             <Heading title='Projects' href='projects' link='All Projects' />
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-7 md:mt-10'>
+            <div className='grid sm:grid-cols-2 gap-4 mt-7 md:mt-10'>
                 {
                     ProjectsData.slice(0, 4).map((item, idx) => (
                         <ProjectsCard item={item} key={idx} />

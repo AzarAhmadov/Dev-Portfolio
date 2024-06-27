@@ -1,15 +1,22 @@
+'use client'
+
 import React, { FC } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { IoMdArrowForward } from 'react-icons/io'
 import { ProjectsDataType } from '@/types/types'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
     return (
         <div className='rounded-lg border-[1px] border-[#0000001d] shadow-sm'>
             <div className='ps-3 pe-3 pt-3'>
-                <div className="relative w-full h-[200px]  md:h-[250px] lg:h-[370px]">
-                    <Image fill src={`${item.img}`} className='w-full object-cover rounded-[10px]' alt='app' />
+                <div className='flex rounded-[10px]'>
+                    <LazyLoadImage
+                        className='w-full object-cover h-[200px] md:h-[250px] lg:h-[370px] rounded-[10px]'
+                        alt={item.name}
+                        effect="blur"
+                        src={`${item.img}`}
+                    />
                 </div>
                 <div className='flex items-center justify-between py-4'>
                     <h4 className='font-medium md:text-[21px] text-[18px] text-black'>
@@ -23,7 +30,7 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
                     <img key={idx} className='md:w-10 md:h-10 w-8 h-8 object-cover rounded-full' src={langItem.img} alt="" />
                 ))}
             </div>
-        </div>
+        </div >
     )
 }
 
