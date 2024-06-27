@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: "Azar Ahmadov | Portfolio",
+    default: "Azar Ahmadov | Personal Portfolio",
     template: `Azar Ahmadov | %s `,
   },
   description: 'Azar Ahmadov personal website. This is a place where you can find my projects and information about me.',
@@ -14,10 +14,7 @@ export const metadata: Metadata = {
     languages: {
       'en-US': '/en-US',
     },
-  },
-  openGraph: {
-    images: '../../public/hero.jpg'
-  },
+  }
 }
 
 export default function RootLayout({
