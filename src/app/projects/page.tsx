@@ -1,8 +1,14 @@
 import Title from '@/common/Title/Title'
 import ProjectsCard from '@/components/Projects/ProjectsCards';
 import { ProjectsData } from '@/data/data';
+import { Metadata } from 'next';
 import React from 'react'
 import { LiaLaptopCodeSolid } from "react-icons/lia";
+
+export const metadata: Metadata = {
+    title: "All Projects",
+    description: "Explore a diverse collection of projects by Azar Ahmadov. From innovative tech solutions to creative coding endeavors, each project showcases unique skills and expertise",
+}
 
 const page = () => {
     return (
