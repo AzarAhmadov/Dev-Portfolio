@@ -22,7 +22,7 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
                     <h4 className='font-medium md:text-[21px] text-[18px] text-black'>
                         {item.name}
                     </h4>
-                    <Link target='_blank' className='md:text-[16px] text-[15px] flex items-center md:gap-2 px-3 md:py-2 gap-1 py-1 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={`${item.link}`}> View <IoMdArrowForward className=' text-[18px] md:text-[20px]' /> </Link>
+                    <Link target='_blank' className='md:text-[16px] text-[15px] flex items-center md:gap-2 px-3 md:py-2 gap-1 py-[6px] border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={`${item.link}`}> View <IoMdArrowForward className=' text-[18px] md:text-[20px]' /> </Link>
                 </div>
             </div>
             <div className='flex items-center gap-3 border-t-[1px] py-4 px-4 border-t-[#0000001d]'>
