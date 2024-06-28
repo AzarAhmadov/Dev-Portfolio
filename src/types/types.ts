@@ -47,3 +47,9 @@ export type InfoType = {
     companyIcon: ReactElement
     date: string
 }
+
+// Modal
+export type ModalType = {
+    toggle: () => void
+    modal: boolean
+}   
