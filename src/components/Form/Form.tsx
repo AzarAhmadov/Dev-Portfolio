@@ -1,13 +1,14 @@
-import React from 'react'
+import { ModalType } from '@/types/types';
+import React, { FC } from 'react'
 import { IoCloseSharp } from "react-icons/io5";
 
-const Form = () => {
+const Form: FC<ModalType> = ({ modal, toggle }) => {
     return (
-        <div className="fixed inset-0 p-3 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm">
-            <div className="bg-white rounded-[15px] shadow-md w-full max-w-[400px]">
+        <div className={`fixed inset-0 p-3 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm transition-all duration-400 ${modal ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+            <div className={`bg-white rounded-[15px] shadow-md w-full max-w-[400px] transition-all ${modal ? 'scale-100' : 'scale-75'}`}>
                 <div className='flex items-center justify-between px-6 py-5 border-b-[1px] border-b-[#00000027]'>
-                    <h3 className="text-[21px] font-semibold text-center">Contact Me</h3>
-                    <IoCloseSharp className='text-[28px]' />
+                    <h3 className="text-[21px] font-medium text-center">Contact Me</h3>
+                    <IoCloseSharp onClick={toggle} className='text-[30px] cursor-pointer' />
                 </div>
                 <form className='p-6' action="">
                     <div className="mb-4">
