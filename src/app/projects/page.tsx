@@ -14,7 +14,7 @@ const page = () => {
     return (
         <>
             <Title title={'All Projects'} icon={<LiaLaptopCodeSolid className='text-[30px]' />} />
-            <div className='container px-3 py-5 md:py-7'>
+            <main className='container px-3 py-5 md:py-7'>
                 <div className='grid sm:grid-cols-2 gap-4'>
                     {
                         ProjectsData.map((item, idx) => (
@@ -22,7 +22,7 @@ const page = () => {
                         ))
                     }
                 </div>
-            </div>
+            </main>
         </>
     )
 }
