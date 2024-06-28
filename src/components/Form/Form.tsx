@@ -15,6 +15,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                     <div className="mb-4">
                         <input
                             type="text"
+                            required
                             placeholder="Name"
                             className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border border-[#00000036] placeholder:text-black rounded-full bg-gray-100 outline-none"
                         />
@@ -22,19 +23,21 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                     <div className="mb-4">
                         <input
                             type="email"
+                            required
                             placeholder="Email"
                             className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border border-[#00000036] rounded-full bg-gray-100 outline-none placeholder:text-black"
                         />
                     </div>
                     <div className="mb-4">
                         <textarea
+                            required
                             placeholder="Message"
                             className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] h-[150px] p-3 border border-[#00000036] rounded-3xl bg-gray-100 outline-none resize-none placeholder:text-black"
                         ></textarea>
                     </div>
                     <div className="flex justify-center">
                         <button className="px-6 flex items-center gap-2 text-[16px] hover:scale-110 transition-all py-3 bg-black text-white rounded-full hover:bg-gray-800">
-                            Send Message <TbSend className='text-[#fff] text-[18px]'/>
+                            Send Message <TbSend className='text-[#fff] text-[18px]' />
                         </button>
                     </div>
                 </form>
