@@ -203,7 +203,7 @@ const page = () => {
     return (
         <>
             <Title title={'About'} icon={<GoPerson className='text-[25px]' />} />
-            <main className="container px-4 py-5 md:py-7 gap-10">
+            <main className="container px-4 md:px-5 py-5 md:py-7 gap-10">
                 <div>
                     <h3 className='text-black font-medium text-[21px] md:text-[24px]'>Experience</h3>
                     <ul>
