@@ -176,12 +176,22 @@ const Experience = () => {
 const Education = () => {
     return (
         <>
-            <li className='py-4 md:py-6'>
+            <li className='py-4 md:py-6 border-b-[1px] border-b-[#00000011]'>
                 <Info
                     title='Western Caspian University'
                     companyIcon={<RiBookOpenLine className='text-gray text-[17px] md:text-[20px]' />}
                     company="Bachelor's degree, Computer Engineering"
                     date='Sep 2018 - Jul 2022'
+                    icon={<FaGraduationCap className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
+                />
+            </li>
+
+            <li className='py-4 md:py-6'>
+                <Info
+                    title='ATL Academy'
+                    companyIcon={<RiBookOpenLine className='text-gray text-[17px] md:text-[20px]' />}
+                    company="Front-End bootcamp"
+                    date='Jun 2024 - Aug 2024'
                     icon={<FaGraduationCap className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
@@ -193,7 +203,7 @@ const page = () => {
     return (
         <>
             <Title title={'About'} icon={<GoPerson className='text-[25px]' />} />
-            <main className="container px-3 py-5 md:py-7 gap-10">
+            <main className="container px-4 py-5 md:py-7 gap-10">
                 <div>
                     <h3 className='text-black font-medium text-[21px] md:text-[24px]'>Experience</h3>
                     <ul>
