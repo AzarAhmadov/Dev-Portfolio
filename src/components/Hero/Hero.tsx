@@ -24,7 +24,7 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <div className='container flex-wrap flex justify-center gap-5 md:gap-0 md:justify-between items-center pt-10 md:pt-[70px]'>
+            <div className='container flex-wrap flex justify-center gap-5 md:gap-0 md:justify-between items-center pt-6 md:pt-[70px]'>
                 <span className='flex items-center gap-2 text-[17px]'>
                     <BiMap className='text-[20px]' />  Baku, Azerbaijan
                 </span>
