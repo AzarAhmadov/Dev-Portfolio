@@ -27,7 +27,7 @@ const Experience = () => {
                         </>
                     }
                     date='Mar 2024 - Present'
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
 
@@ -49,7 +49,7 @@ const Experience = () => {
                         </>
                     }
                     date='Apr 2022 - Jun 2022'
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
 
@@ -59,7 +59,7 @@ const Experience = () => {
                     company='Proton.az'
                     date='Feb 2023 - Apr 2023'
                     companyIcon={<PiBuildings className='text-gray text-[17px] md:text-[20px]' />}
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
 
@@ -78,7 +78,7 @@ const Experience = () => {
                         </>
                     }
                     date='Apr 2022 - Jun 2022'
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
 
@@ -97,7 +97,7 @@ const Experience = () => {
                         </>
                     }
                     date='Feb 2022 - May 2022'
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
 
@@ -166,7 +166,7 @@ const Experience = () => {
                         </>
                     }
                     date='Mar 2021 - Feb 2022'
-                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<IoCodeSlash className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
         </>
@@ -182,7 +182,7 @@ const Education = () => {
                     companyIcon={<RiBookOpenLine className='text-gray text-[17px] md:text-[20px]' />}
                     company="Bachelor's degree, Computer Engineering"
                     date='Sep 2018 - Jul 2022'
-                    icon={<FaGraduationCap className='text-[21px] flex-shrink-0 flex items-center justify-center h-[30px]' />}
+                    icon={<FaGraduationCap className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
         </>
