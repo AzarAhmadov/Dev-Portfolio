@@ -23,7 +23,7 @@ const Footer = () => {
                     Have a <br />
                     Project Idea?
                 </h4>
-                <button onClick={toggle} className='my-4 flex items-center gap-2 px-5 w-[max-content] py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all'> Let's Connect <IoMdArrowForward className='text-[20px]' /> </button>
+                <button disabled={modal} onClick={toggle} className='my-4 flex items-center gap-2 px-5 w-[max-content] py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all'> Let's Connect <IoMdArrowForward className='text-[20px]' /> </button>
                 <Link href={'mailto:azarahmadovdev@gmail.com'} className='text-[14px] mt-1 border-[1px] rounded-full px-3 py-1 text-gray border-[#00000044]'>
                     azarahmadovdev@gmail.com
                 </Link>
