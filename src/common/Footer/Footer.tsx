@@ -18,12 +18,12 @@ const Footer = () => {
 
     return (
         <>
-            <footer className='flex flex-col items-center justify-center pt-8 pb-8 border-t-[1px] border-t-[#00000013]'>
+            <footer className='flex flex-col items-center justify-center pt-7 pb-7 border-t-[1px] border-t-[#00000013]'>
                 <h4 className='text-center text-black text-[23px]'>
                     Have a <br />
                     Project Idea?
                 </h4>
-                <button disabled={modal} onClick={toggle} className='my-4 flex items-center gap-2 px-5 w-[max-content] py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all'> Let's Connect <IoMdArrowForward className='text-[20px]' /> </button>
+                <button disabled={modal} onClick={toggle} className='my-4 flex items-center gap-2 md:px-5 px-4 py-2 w-[max-content] md:py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all'> Let's Connect <IoMdArrowForward className='text-[20px]' /> </button>
                 <Link href={'mailto:azarahmadovdev@gmail.com'} className='text-[14px] mt-1 border-[1px] rounded-full px-3 py-1 text-gray border-[#00000044]'>
                     azarahmadovdev@gmail.com
                 </Link>
