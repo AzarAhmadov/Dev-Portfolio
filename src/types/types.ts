@@ -32,7 +32,18 @@ export type ProjectsDataType = {
     item: Project;
 };
 
+// Title
 export type TitleType = {
     title: string
     icon: ReactElement
+}
+
+// Info
+export type InfoType = {
+    icon: ReactElement
+    title: string
+    desc?: ReactElement
+    company: string
+    companyIcon: ReactElement
+    date: string
 }
