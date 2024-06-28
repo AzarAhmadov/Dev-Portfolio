@@ -190,7 +190,7 @@ const Education = () => {
                 <Info
                     title='ATL Academy'
                     companyIcon={<RiBookOpenLine className='text-gray text-[17px] md:text-[20px]' />}
-                    company="Front-End bootcamp"
+                    company="Front-End Bootcamp"
                     date='Jun 2024 - Aug 2024'
                     icon={<FaGraduationCap className='text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
