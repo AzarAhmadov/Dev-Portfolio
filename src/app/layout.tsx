@@ -1,4 +1,4 @@
-import Footer from '@/components/Footer/Footer';
+import Footer from '@/common/Footer/Footer';
 import '../css/style.css'
 import { Metadata } from 'next';
 
