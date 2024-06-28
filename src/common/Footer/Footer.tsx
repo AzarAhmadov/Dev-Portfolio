@@ -12,6 +12,9 @@ const Footer = () => {
                 Project Idea?
             </h4>
             <Link className='my-4 flex w-m items-center gap-2 px-5 w-[max-content] py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/'}> Let's Connect <IoMdArrowForward className='text-[20px]' /> </Link>
+            <Link href={'mailto:azarahmadovdev@gmail.com'} className='text-[14px] mt-1 border-[1px] rounded-full px-3 py-1 text-gray border-[#00000044]'>
+                azarahmadovdev@gmail.com
+            </Link>
             <ul className='flex gap-3 mb-6 mt-5'>
                 <li>
                     <Link target='_blank' href={'https://www.linkedin.com/in/azar-ahmadov/'}>
