@@ -8,6 +8,11 @@ import Link from 'next/link';
 import { FaGraduationCap } from "react-icons/fa";
 import { PiBuildings } from "react-icons/pi";
 import { RiBookOpenLine } from "react-icons/ri";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: "About",
+}
 
 const Experience = () => {
     return (

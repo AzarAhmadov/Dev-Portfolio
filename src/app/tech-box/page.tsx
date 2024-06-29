@@ -7,7 +7,6 @@ import { IoCodeSlashSharp } from 'react-icons/io5'
 
 export const metadata: Metadata = {
     title: "My Tech Box",
-    description: `Explore Azar Ahmadov's curated collection of tech tools and resources in "My Tech Box". Discover a variety of technologies and innovations presented through interactive stack cards.`,
 }
 
 const page = () => {
