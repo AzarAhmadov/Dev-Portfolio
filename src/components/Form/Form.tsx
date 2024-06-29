@@ -9,7 +9,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
             <div className={`bg-white rounded-[15px] shadow-md w-full max-w-[400px] transition-all ${modal ? 'scale-100' : 'scale-75'}`}>
                 <div className='flex items-center justify-between px-6 py-5 border-b-[1px] border-b-[#00000027]'>
                     <h3 className="text-[21px] font-medium text-center">Contact Me</h3>
-                    <IoCloseSharp onClick={toggle} className='text-[30px] cursor-pointer' />
+                    <IoCloseSharp onClick={toggle} className='text-[30px] hover:text-[red] transition-all cursor-pointer' />
                 </div>
                 <form className='p-6' action="">
                     <div className="mb-4">
