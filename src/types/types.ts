@@ -52,4 +52,10 @@ export type InfoType = {
 export type ModalType = {
     toggle: () => void
     modal: boolean
-}   
+}
+
+export type EmailType = {
+    name: string
+    email: string
+    message: string
+}
