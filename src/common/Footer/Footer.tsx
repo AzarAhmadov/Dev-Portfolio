@@ -16,7 +16,7 @@ const Footer = () => {
 
     return (
         <>
-            <footer className='flex flex-col items-center justify-center pt-7 pb-[140px] border-t-[1px] border-t-[#00000013]'>
+            <footer className='flex flex-col items-center justify-center pt-7 pb-[130px] border-t-[1px] border-t-[#00000013]'>
                 <h4 className='text-center text-black text-[23px]'>
                     Have a <br />
                     Project Idea?
