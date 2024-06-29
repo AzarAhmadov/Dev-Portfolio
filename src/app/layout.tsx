@@ -1,6 +1,7 @@
 import Footer from '@/common/Footer/Footer';
 import '../css/style.css'
 import { Metadata } from 'next';
+import Navigation from '@/common/Navigation/Navigation';
 
 export const metadata: Metadata = {
   title: {
@@ -34,6 +35,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <Navigation />
         <Footer />
       </body>
     </html>
