@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <>
-            <Title title={'My Tech Box'} icon={<IoCodeSlashSharp className='text-[25px]' />} />
+            <Title title={'My Tech Box'} icon={<IoCodeSlashSharp className='dark:text-white text-[25px]' />} />
             <main className='container px-4 md:px-5 py-5 md:py-7'>
                 <ul className='grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-5'>
                     {

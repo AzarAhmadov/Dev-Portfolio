@@ -207,7 +207,7 @@ const Education = () => {
 const page = () => {
     return (
         <>
-            <Title title={'About'} icon={<GoPerson className='text-[25px]' />} />
+            <Title title={'About'} icon={<GoPerson className='dark:text-white text-[25px]' />} />
             <main className="container px-4 md:px-5 py-5 md:py-7 gap-10">
                 <div>
                     <h3 className='text-black dark:text-white font-medium text-[21px] md:text-[24px]'>Experience</h3>

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const page = () => {
     return (
         <>
-            <Title title={'All Projects'} icon={<LiaLaptopCodeSolid className='text-[30px]' />} />
+            <Title title={'All Projects'} icon={<LiaLaptopCodeSolid className='dark:text-white text-[30px]' />} />
             <main className='container px-4 md:px-5 py-5 md:py-7'>
                 <div className='grid sm:grid-cols-2 gap-4'>
                     {
