@@ -1,7 +1,8 @@
+'use client'
 
 import emailjs from "@emailjs/browser";
 import { ModalType } from '@/types/types';
-import React, { FC, useRef } from 'react'
+import React, { FC, useRef, useState } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 import { TbSend } from "react-icons/tb";
 import { ToastContainer, toast } from 'react-toastify';
@@ -9,55 +10,98 @@ import { ToastContainer, toast } from 'react-toastify';
 const Form: FC<ModalType> = ({ modal, toggle }) => {
 
     const form = useRef<HTMLFormElement>(null);
-    const name = useRef<HTMLInputElement>(null);
-    const email = useRef<HTMLInputElement>(null);
-    const message = useRef<HTMLTextAreaElement>(null);
+
+    const [formControl, setFormControl] = useState({
+        name: "",
+        email: "",
+        message: ""
+    });
+
+    const [errors, setErrors] = useState({
+        name: false,
+        email: false,
+        message: false
+    })
+
+    const validateForm = () => {
+        const newErrors = {
+            name: formControl.name === "",
+            email: formControl.email === "",
+            message: formControl.message === ""
+        }
+
+        setErrors(newErrors)
+
+        return !newErrors.name && !newErrors.email && !newErrors.message;
+    }
+
+    const isFormValid = () => formControl.name != "" && formControl.email != "" && formControl.message != "";
+
+    const formReset = () => {
+        formControl.name = ''
+        formControl.email = ''
+        formControl.message = ''
+    }
 
     const sendEmail = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
+        if (validateForm()) {
+            if (process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID && process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID && process.env.NEXT_PUBLIC_EMAILJS_USER_ID && form.current) {
+                emailjs
+                    .sendForm(
+                        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+                        form.current,
+                        process.env.NEXT_PUBLIC_EMAILJS_USER_ID
+                    )
+                    .then(
+                        () => {
+                            toast.success('Message sent successfully!', {
+                                position: "top-right",
+                                autoClose: 5000,
+                                hideProgressBar: false,
+                                closeOnClick: true,
+                                pauseOnHover: true,
+                                draggable: true,
+                                theme: "light",
+                            });
+                        },
+                        () => {
+                            toast.error('Message could not be sent!', {
+                                position: "top-right",
+                                autoClose: 5000,
+                                hideProgressBar: false,
+                                closeOnClick: true,
+                                pauseOnHover: true,
+                                draggable: true,
+                                theme: "light",
+                            });
+                        }
+                    );
 
-        if (process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID && process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID && process.env.NEXT_PUBLIC_EMAILJS_USER_ID && form.current) {
-            emailjs
-                .sendForm(
-                    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-                    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-                    form.current,
-                    process.env.NEXT_PUBLIC_EMAILJS_USER_ID
-                )
-                .then(
-                    () => {
-                        toast.success('Message sent successfully!', {
-                            position: "top-right",
-                            autoClose: 5000,
-                            hideProgressBar: false,
-                            closeOnClick: true,
-                            pauseOnHover: true,
-                            draggable: true,
-                            theme: "light",
-                        })
-                    },
-                    () => {
-                        toast.error('Message could not be sent!', {
-                            position: "top-right",
-                            autoClose: 5000,
-                            hideProgressBar: false,
-                            closeOnClick: true,
-                            pauseOnHover: true,
-                            draggable: true,
-                            theme: "light",
-                        });
-                    }
-                );
+                formReset()
+                toggle()
+            }
+        } else {
+            toast.error('Please fill in all fields!', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                theme: "light",
+            });
         }
-
-        toggle()
-
-        if (name.current) name.current.value = "";
-        if (email.current) email.current.value = "";
-        if (message.current) message.current.value = "";
-
     };
 
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        const { name, value } = e.target;
+        setFormControl(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
     return (
         <>
             <div className={`fixed inset-0 px-4 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm transition-all duration-400 ${modal ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
@@ -70,34 +114,34 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                         <div className="mb-4">
                             <input
                                 type="text"
-                                required
-                                ref={name}
+                                value={formControl.name}
+                                onChange={handleChange}
                                 name="name"
                                 placeholder="Name"
-                                className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border border-[#00000036] placeholder:text-black rounded-full bg-gray-100 outline-none"
+                                className={`${errors.name ? 'border-red-500' : 'border-[#00000036]'} w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border rounded-full bg-gray-100 outline-none placeholder:text-black`}
                             />
                         </div>
                         <div className="mb-4">
                             <input
                                 type="email"
-                                required
-                                ref={email}
+                                value={formControl.email}
+                                onChange={handleChange}
                                 name="email"
                                 placeholder="Email"
-                                className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border border-[#00000036] rounded-full bg-gray-100 outline-none placeholder:text-black"
+                                className={`${errors.email ? 'border-red-500' : 'border-[#00000036]'} w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] p-3 border rounded-full bg-gray-100 outline-none placeholder:text-black`}
                             />
                         </div>
                         <div className="mb-4">
                             <textarea
-                                required
-                                ref={message}
+                                value={formControl.message}
+                                onChange={handleChange}
                                 name="message"
                                 placeholder="Message"
-                                className="w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] h-[150px] p-3 border border-[#00000036] rounded-3xl bg-gray-100 outline-none resize-none placeholder:text-black"
-                            ></textarea>
+                                className={`${errors.message ? 'border-red-500' : 'border-[#00000036]'} w-full bg-[#f4f5f534] text-[15px] placeholder:text-[15px] h-[150px] p-3 border rounded-3xl bg-gray-100 outline-none resize-none placeholder:text-black`}
+                            />
                         </div>
                         <div className="flex justify-center">
-                            <button className="px-6 flex items-center gap-2 text-[16px] hover:scale-110 transition-all py-3 bg-black text-white rounded-full hover:bg-gray-800">
+                            <button disabled={!isFormValid()} type="submit" className={`${!isFormValid() ? "bg-[#00000054] opacity-[0.3]" : "bg-black opacity-[1]"} px-6 flex items-center gap-2 text-[16px] hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800`}>
                                 Send Message <TbSend className='text-[#fff] text-[18px]' />
                             </button>
                         </div>
@@ -117,9 +161,8 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                 pauseOnHover
                 theme="light"
             />
-            <ToastContainer />
         </>
-    )
-}
+    );
+};
 
-export default Form
+export default Form;
