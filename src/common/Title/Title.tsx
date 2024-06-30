@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, memo } from 'react'
 import Link from 'next/link'
 import { GoArrowLeft } from "react-icons/go";
 import { TitleType } from '@/types/types';
@@ -17,4 +17,4 @@ const Title: FC<TitleType> = ({ title, icon }) => {
     )
 }
 
-export default Title
+export default memo(Title)

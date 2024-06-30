@@ -1,6 +1,6 @@
 'use client'
 
-import React, { FC } from 'react'
+import React, { FC, memo } from 'react'
 import Link from 'next/link'
 import { IoMdArrowForward } from 'react-icons/io'
 import { ProjectsDataType } from '@/types/types'
@@ -34,4 +34,4 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
     )
 }
 
-export default ProjectsCard
+export default memo(ProjectsCard)

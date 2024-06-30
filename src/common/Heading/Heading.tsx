@@ -1,5 +1,5 @@
 
-import React, { FC } from 'react'
+import React, { FC, memo } from 'react'
 import { HeadingType } from '@/types/types'
 import Link from 'next/link'
 import { IoMdArrowForward } from 'react-icons/io'
@@ -17,4 +17,4 @@ const Heading: FC<HeadingType> = ({ title, href, link }) => {
     )
 }
 
-export default Heading
+export default memo(Heading)

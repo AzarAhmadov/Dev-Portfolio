@@ -1,6 +1,6 @@
 'use client'
 
-import React, { FC } from 'react'
+import React, { FC, memo } from 'react'
 import { InfoType } from '@/types/types';
 import { MdCalendarMonth } from "react-icons/md";
 
@@ -28,4 +28,4 @@ const Info: FC<InfoType> = ({ icon, title, desc, company, date, companyIcon }) =
     )
 }
 
-export default Info
+export default memo(Info)
