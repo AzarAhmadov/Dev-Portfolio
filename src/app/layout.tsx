@@ -33,7 +33,7 @@ export default function RootLayout({
         <meta name="language" content="English" />
         <meta name="author" content="Azar Ahmadov" />
       </head>
-      <body>
+      <body className='dark:bg-[#0a0d19]'>
         {children}
         <Navigation />
         <Footer />

@@ -18,17 +18,17 @@ const Header: FC = () => {
                     <ul className='flex gap-3'>
                         <li>
                             <Link target='_blank' href={'https://www.linkedin.com/in/azar-ahmadov/'}>
-                                <CiLinkedin className='text-icons-bg text-[30px] hover:text-black transition-all hover:scale-110' />
+                                <CiLinkedin className='text-icons-bg dark:text-white dark:hover:text-[#ffffffc6] text-[30px] hover:text-black transition-all hover:scale-110' />
                             </Link>
                         </li>
                         <li>
                             <Link target='_blank' href={'https://github.com/AzarAhmadov'}>
-                                <FaGithub className='text-icons-bg text-[30px] hover:text-black transition-all hover:scale-110' />
+                                <FaGithub className='text-icons-bg dark:text-white dark:hover:text-[#ffffffc6]  text-[30px] hover:text-black transition-all hover:scale-110' />
                             </Link>
                         </li>
                         <li>
                             <Link target='_blank' href={'https://api.whatsapp.com/send?phone=9940558210637'}>
-                                <FaWhatsapp className='text-icons-bg text-[30px] hover:text-black transition-all hover:scale-110' />
+                                <FaWhatsapp className='text-icons-bg dark:text-white dark:hover:text-[#ffffffc6] text-[30px] hover:text-black transition-all hover:scale-110' />
                             </Link>
                         </li>
                     </ul>
