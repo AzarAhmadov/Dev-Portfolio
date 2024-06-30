@@ -1,5 +1,5 @@
 # Developer Portfolio
-he portfolio website I prepared for developers
+The portfolio website I prepared for developers
 
 ## Live
 Live : https://azarahmadov.com/
