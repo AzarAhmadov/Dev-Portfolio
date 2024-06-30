@@ -46,7 +46,7 @@ export const StackData = [
     },
     {
         name: "Next.js",
-        logo: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+        logo: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
         link: "https://nextjs.org/"
     },
     {
