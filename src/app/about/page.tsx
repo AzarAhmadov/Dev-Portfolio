@@ -109,7 +109,7 @@ const Experience = () => {
             <li className='py-4 md:py-6'>
                 <Info
                     title='Front-End Developer'
-                    company='Free Lancer'
+                    company='Freelance'
                     companyIcon={<PiBuildings className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
                     desc={
                         <>
