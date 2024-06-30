@@ -5,7 +5,6 @@ import { InfoType } from '@/types/types';
 import { MdCalendarMonth } from "react-icons/md";
 
 const Info: FC<InfoType> = ({ icon, title, desc, company, date, companyIcon }) => {
-
     return (
         <section className='flex justify-start gap-3'>
             {icon}

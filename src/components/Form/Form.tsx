@@ -102,6 +102,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
             [name]: value
         }));
     };
+    
     return (
         <>
             <div className={`fixed inset-0 px-4 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm transition-all duration-400 ${modal ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
