@@ -3,13 +3,13 @@
 import { motion } from "framer-motion";
 
 const variants = {
-    hidden: { opacity: 0, scale: 0.95 },
+    hidden: { opacity: 0, x: -30 },
     enter: {
         opacity: 1,
-        scale: 1,
+        x: 0,
         transition: {
             type: "spring",
-            stiffness: 100,
+            stiffness: 50,
             damping: 10,
         },
     },
