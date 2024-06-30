@@ -147,7 +147,7 @@ export const ProjectsData = [
         img: "/p-3.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
@@ -201,7 +201,7 @@ export const ProjectsData = [
         img: "/p-6.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOh9MeoM2tSOTjjG3Yyn6zxGA_sBlgfDw6-Q&s",
@@ -217,7 +217,7 @@ export const ProjectsData = [
         img: "/p-7.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
@@ -233,7 +233,7 @@ export const ProjectsData = [
         img: "/p-8.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
@@ -315,7 +315,7 @@ export const ProjectsData = [
         img: "/p-13.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
@@ -331,7 +331,7 @@ export const ProjectsData = [
         img: "/p-14.png",
         lang: [
             {
-                img: "https://static-00.iconduck.com/assets.00/nextjs-icon-512x512-wbsw4aug.png",
+                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
