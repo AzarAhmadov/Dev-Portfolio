@@ -31,7 +31,7 @@ const Hero = () => {
                     </span>
                 </div>
                 <div className='flex justify-center md:w-[33.3%]'>
-                    <a download href="/cv/AzarAhmadov(cv,en).pdf" className='bg-black dark:bg-[#454545] dark:text-white dark:hover:bg-[#fffb] dark:hover:text-black text-white hover:bg-transparent hover:border-[1px] hover:
+                    <a download href="/cv/AzarAhmadov(cv,en).pdf" className='bg-black dark:bg-[#283747] dark:text-white dark:hover:bg-[#fffb] dark:hover:text-black text-white hover:bg-transparent hover:border-[1px] hover:
                 border-[#00000071] hover:text-black transition-all md:text-[17px] text-[15px] hover:scale-90 gap-2 rounded-full md:px-5 md:py-3 py-2 px-4 flex items-center'>
                         My Cv <MdOutlineFileDownload className='text-[22px]' />
                     </a>
