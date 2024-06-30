@@ -102,7 +102,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
             [name]: value
         }));
     };
-    
+
     return (
         <>
             <div className={`fixed inset-0 px-4 flex items-center justify-center bg-black bg-opacity-50 backdrop-blur-sm transition-all duration-400 ${modal ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
@@ -142,8 +142,8 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                             />
                         </div>
                         <div className="flex justify-center">
-                            <button disabled={!isFormValid()} type="submit" className={`${!isFormValid() ? "bg-[#00000054] opacity-[0.3]" : "bg-black opacity-[1]"} px-6 flex items-center gap-2 text-[16px] hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800`}>
-                                Send Message <TbSend className='text-[#fff] text-[18px]' />
+                            <button type="submit" className="bg-black opacity-100 px-6 flex items-center gap-2 text-16 hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800">
+                                Send Message <TbSend className='text-white text-18px' />
                             </button>
                         </div>
                     </form>
