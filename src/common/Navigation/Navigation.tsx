@@ -8,7 +8,6 @@ import { GrPersonalComputer } from "react-icons/gr";
 import { LuUser2 } from "react-icons/lu";
 import { usePathname } from 'next/navigation';
 
-
 const Navigation = () => {
 
     const pathname = usePathname()

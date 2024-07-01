@@ -2,7 +2,7 @@
 
 import emailjs from "@emailjs/browser";
 import { ModalType } from '@/types/types';
-import React, { FC, useRef, useState } from 'react';
+import React, { FC, useRef, useState, memo } from 'react';
 import { IoCloseSharp } from "react-icons/io5";
 import { TbSend } from "react-icons/tb";
 import { ToastContainer, toast } from 'react-toastify';
@@ -166,4 +166,4 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
     );
 };
 
-export default Form;
+export default memo(Form)
