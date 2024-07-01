@@ -14,6 +14,7 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
                     <LazyLoadImage
                         className='w-full object-cover h-[200px] md:h-[250px] lg:h-[370px] rounded-[10px]'
                         alt={item.name}
+                        loading='lazy'
                         effect="blur"
                         src={`${item.img}`}
                     />
@@ -26,11 +27,16 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
                 </div>
             </div>
             <div className='flex items-center gap-3 border-t-[1px] py-4 px-4 border-t-[#0000001d] dark:border-t-[#ffffff2b]'>
-                {item.lang.map((langItem, idx) => (
-                    <img key={idx} className='md:w-10 md:h-10 w-8 h-8 object-cover rounded-full' src={langItem.img} />
+                {item.lang.map((langItem, langIdx) => (
+                    <img
+                        key={langIdx}
+                        className='md:w-10 md:h-10 w-8 h-8 object-cover rounded-full'
+                        src={langItem.img}
+                        alt={langItem.title}
+                    />
                 ))}
             </div>
-        </div >
+        </div>
     )
 }
 

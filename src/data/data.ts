@@ -104,18 +104,23 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                title: "React"
             },
             {
                 img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png",
+                title: "Redux Toolkit"
             },
             {
-                img: "https://epss.ucla.edu/static/bootstrap-5.2.0/site/static/docs/5.2/assets/brand/bootstrap-social-logo.png"
+                img: "https://epss.ucla.edu/static/bootstrap-5.2.0/site/static/docs/5.2/assets/brand/bootstrap-social-logo.png",
+                title: "Bootstrap"
             },
             {
-                img: "https://miro.medium.com/v2/resize:fit:1400/1*OgfGgWfcV4JEKUvNxf2AuA.png"
+                img: "https://miro.medium.com/v2/resize:fit:1400/1*OgfGgWfcV4JEKUvNxf2AuA.png",
+                title: "Framer Motion"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
         ]
     },
@@ -126,18 +131,23 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                title: "React"
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                title: "TypeScript"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
             {
-                img: "https://miro.medium.com/v2/resize:fit:1400/1*OgfGgWfcV4JEKUvNxf2AuA.png"
+                img: "https://miro.medium.com/v2/resize:fit:1400/1*OgfGgWfcV4JEKUvNxf2AuA.png",
+                title: "Framer Motion"
             },
             {
-                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4"
+                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4",
+                title: "React i18"
             },
         ]
     },
@@ -148,18 +158,23 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                title: "TypeScript"
             },
             {
-                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4"
+                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4",
+                title: "React i18"
             },
             {
-                img: "https://i.pinimg.com/474x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg"
+                img: "https://i.pinimg.com/474x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg",
+                title: "Mongo DB"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
         ]
     },
@@ -170,12 +185,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                title: "React"
             },
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOh9MeoM2tSOTjjG3Yyn6zxGA_sBlgfDw6-Q&s",
+                title: "Hygraph"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
         ]
     },
@@ -186,12 +204,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                title: "React"
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                title: "TypeScript"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbmStvq6m2etalyaoEq0w3FGAXfz0B7JKSA&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbmStvq6m2etalyaoEq0w3FGAXfz0B7JKSA&s",
+                title: "React Query"
             }
         ]
     },
@@ -202,12 +223,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOh9MeoM2tSOTjjG3Yyn6zxGA_sBlgfDw6-Q&s",
+                title: "Hygraph"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
         ]
     },
@@ -218,12 +242,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                title: "TypeScript"
             },
             {
-                img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp"
+                img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+                title: "Tailwind CSS"
             }
         ]
     },
@@ -234,21 +261,23 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                title: "TypeScript"
             },
             {
-                img: "https://i.pinimg.com/474x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg"
-            },
-            {
-                img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4"
+                img: "https://i.pinimg.com/474x/91/23/7f/91237f1eca767ef74d722ca534f9281a.jpg",
+                title: "Mongo DB"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
             {
-                img: "https://pbs.twimg.com/profile_images/1370357699372810243/94fjvw_p_400x400.png"
+                img: "https://pbs.twimg.com/profile_images/1370357699372810243/94fjvw_p_400x400.png",
+                title: "Sass"
             }
         ]
     },
@@ -259,15 +288,19 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+                title: "Html 5"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s",
+                title: "JavaScript"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s",
+                title: "Bootstrap"
             }
         ]
     },
@@ -278,15 +311,19 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+                title: "Bootstrap"
             },
             {
                 img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                title: "Css 3"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s",
+                title: "JavaScript"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s",
+                title: "Bootstrap"
             }
         ]
     },
@@ -297,15 +334,19 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGUxODNtCFqUiiB66Hd0m7daeq4SwHh8uYFg&s",
+                title: "Bootstrap"
             },
             {
                 img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                title: "Css 3"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaITr-2Hdr4lg5fsHF6RcElEBSL3Q_bsO84w&s",
+                title: "JavaScript"
             },
             {
-                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s"
+                img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqf-Kqyd8dSvhhufDguf9CsTZStGVsoSQ5dg&s",
+                title: "Bootstrap"
             }
         ]
     },
@@ -316,12 +357,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
             {
-                img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png"
+                img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png",
+                title: "Rapid API"
             }
         ]
     },
@@ -332,12 +376,15 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
+                title: "Next.js"
             },
             {
                 img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
+                title: "Sass"
             },
             {
-                img: "https://media.licdn.com/dms/image/D4D12AQEYCFvOjhb8rQ/article-cover_image-shrink_600_2000/0/1679941246531?e=2147483647&v=beta&t=A3azwRlUOpX_tBCILj49HMVojFrvGUZO8vC_yBi_dkQ"
+                img: "https://media.licdn.com/dms/image/D4D12AQEYCFvOjhb8rQ/article-cover_image-shrink_600_2000/0/1679941246531?e=2147483647&v=beta&t=A3azwRlUOpX_tBCILj49HMVojFrvGUZO8vC_yBi_dkQ",
+                title: "Aos.js"
             },
         ]
     },
@@ -348,9 +395,11 @@ export const ProjectsData = [
         lang: [
             {
                 img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+                title: "React"
             },
             {
                 img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                title: "Css 3"
             },
         ]
     },

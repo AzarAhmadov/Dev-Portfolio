@@ -6,7 +6,7 @@ import React from 'react'
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 export const metadata: Metadata = {
-    title: "All Projects",
+    title: "Azar Ahmadov | All Projects",
 }
 
 const page = () => {

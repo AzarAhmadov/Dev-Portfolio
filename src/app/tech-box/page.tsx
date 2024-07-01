@@ -6,7 +6,7 @@ import React from 'react'
 import { IoCodeSlashSharp } from 'react-icons/io5'
 
 export const metadata: Metadata = {
-    title: "My Tech Box",
+    title: "Azar Ahmadov | My Tech Box",
 }
 
 const page = () => {
