@@ -11,7 +11,7 @@ import { RiBookOpenLine } from "react-icons/ri";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "About",
+    title: "Azar Ahmadov | About",
 }
 
 const Experience = () => {
