@@ -25,6 +25,7 @@ type Project = {
     img: string;
     lang: {
         img: string;
+        title: string;
     }[];
 }
 
@@ -54,6 +55,7 @@ export type ModalType = {
     modal: boolean
 }
 
+// Email
 export type EmailType = {
     name: string
     email: string
