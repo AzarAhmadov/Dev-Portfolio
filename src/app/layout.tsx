@@ -1,5 +1,6 @@
-import Footer from '@/common/Footer/Footer';
-import Navigation from '@/common/Navigation/Navigation';
+import dynamic from 'next/dynamic'
+const Footer = dynamic(() => import('@/common/Footer/Footer'))
+import Navigation from '@/common/Navigation/Navigation'
 import '@/css/style.css'
 
 const metadata = {

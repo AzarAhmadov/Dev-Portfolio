@@ -1,8 +1,9 @@
-import Header from '@/components/Header/Header'
-import Hero from '@/components/Hero/Hero'
-import Projects from '@/components/Projects/Projects'
-import Stack from '@/components/Stack/Stack'
 import React from 'react'
+import Header from '@/components/Header/Header'
+const Projects = dynamic(() => import('@/components/Projects/Projects'))
+const Stack = dynamic(() => import('@/components/Stack/Stack'))
+import Hero from '@/components/Hero/Hero'
+import dynamic from 'next/dynamic'
 
 const page = () => {
   return (
