@@ -181,16 +181,6 @@ const Experience = () => {
 const Education = () => {
     return (
         <>
-            <li className='py-4 md:py-6 border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c]'>
-                <Info
-                    title='Western Caspian University'
-                    companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
-                    company="Bachelor's degree, Computer Engineering"
-                    date='Sep 2018 - Jul 2022'
-                    icon={<FaGraduationCap className='dark:text-white  text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
-                />
-            </li>
-
             <li className='py-4 md:py-6'>
                 <Info
                     title='ATL Academy'
@@ -198,6 +188,16 @@ const Education = () => {
                     company="Front-End Bootcamp"
                     date='Jun 2024 - Aug 2024'
                     icon={<FaGraduationCap className='dark:text-white  text-[21px] flex-shrink-0 flex items-center justify-center h-[23px] md:h-[30px]' />}
+                />
+            </li>
+
+            <li className='py-4 md:py-6 border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c]'>
+                <Info
+                    title='Western Caspian University'
+                    companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
+                    company="Bachelor's degree, Computer Engineering"
+                    date='Sep 2018 - Jul 2022'
+                    icon={<FaGraduationCap className='dark:text-white  text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
                 />
             </li>
         </>
