@@ -20,7 +20,8 @@ const Info: FC<InfoType> = ({ icon, title, desc, company, date, companyIcon }) =
                     </ul>
                 }
                 <span className='text-gray mt-2 text-[13px] md:text-[15px] dark:text-[#ffffffc8] flex items-center gap-[5px]'>
-                    <MdCalendarMonth className='text-[15px] md:text-[17px] text-gray dark:text-[#ffffffc8] flex-shrink-0' />  {date}
+                    <MdCalendarMonth className='text-[17px] mr-[3.3px] flex  items-start md:text-[20px] text-gray dark:text-[#ffffffc8] flex-shrink-0' />
+                    {date}
                 </span>
             </div>
         </section>
