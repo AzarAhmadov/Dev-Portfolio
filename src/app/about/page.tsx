@@ -25,7 +25,7 @@ const Experience = () => {
                     desc={
                         <>
                             <li>
-                                <p className='text-[13px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
                                     - I coded "jobhubcenter.com" from scratch, and the purpose of this site is to make it easier for people to find jobs.
                                 </p>
                             </li>
@@ -76,7 +76,7 @@ const Experience = () => {
                     desc={
                         <>
                             <li>
-                                <p className='text-[13px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
                                     - I taught the 60-hour curriculum. Topics were Html 5 Css and JavaScript.
                                 </p>
                             </li>
@@ -95,7 +95,7 @@ const Experience = () => {
                     desc={
                         <>
                             <li>
-                                <p className='text-[13px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
                                     - During my time working as a freelancer, I developed more than 10+ websites.
                                 </p>
                             </li>
@@ -114,7 +114,7 @@ const Experience = () => {
                     desc={
                         <>
                             <li>
-                                <p className='text-[13px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
                                     - During my time working as a freelancer, I developed more than 10+ websites.
                                 </p>
                             </li>
