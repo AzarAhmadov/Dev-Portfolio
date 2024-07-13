@@ -181,7 +181,7 @@ const Experience = () => {
 const Education = () => {
     return (
         <>
-            <li className='py-4 md:py-6 border-b-[#00000011] dark:border-b-[#ffffff1c]'>
+            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6]'>
                 <Info
                     title='ATL Academy'
                     companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
@@ -191,7 +191,7 @@ const Education = () => {
                 />
             </li>
 
-            <li className='py-4 md:py-6 border-b-[1px]'>
+            <li className='py-4 md:py-6'>
                 <Info
                     title='Western Caspian University'
                     companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
