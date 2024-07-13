@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const Experience = () => {
     return (
         <>
-            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6'>
+            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] pb-4'>
                 <Info
                     title='Founder | Job Hub Center'
                     company='jobhubcenter.com'
@@ -92,15 +92,6 @@ const Experience = () => {
                     title='Front-End Developer | Internship'
                     company='logix.az'
                     companyIcon={<PiBuildings className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
-                    desc={
-                        <>
-                            <li>
-                                <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
-                                    - During my time working as a freelancer, I developed more than 10+ websites.
-                                </p>
-                            </li>
-                        </>
-                    }
                     date='Feb 2022 - May 2022'
                     icon={<IoCodeSlash className='text-[21px] dark:text-white flex-shrink-0 flex items-center justify-center h-[23px] md:h-[30px]' />}
                 />
@@ -119,7 +110,7 @@ const Experience = () => {
                                 </p>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://www.tonnyblack.com.tr/Default.aspx'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                <Link target='_blank' href={'https://www.tonnyblack.com.tr/Default.aspx'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] ms-[1px] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
                                     <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> tonnyblack.com
                                 </Link>
                             </li>
@@ -181,7 +172,7 @@ const Experience = () => {
 const Education = () => {
     return (
         <>
-            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6]'>
+            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6'>
                 <Info
                     title='ATL Academy'
                     companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
@@ -191,13 +182,13 @@ const Education = () => {
                 />
             </li>
 
-            <li className='py-4 md:py-6'>
+            <li className='pt-4 md:pt-6'>
                 <Info
                     title='Western Caspian University'
                     companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
                     company="Bachelor's degree, Computer Engineering"
                     date='Sep 2018 - Jul 2022'
-                    icon={<FaGraduationCap className='dark:text-white  text-[21px] flex-shrink-0 flex items-center justify-center h-[25px] md:h-[30px]' />}
+                    icon={<FaGraduationCap className='dark:text-white  text-[21px] flex-shrink-0 flex items-center justify-center h-[23px] md:h-[30px]' />}
                 />
             </li>
         </>
@@ -208,19 +199,16 @@ const page = () => {
     return (
         <>
             <Title title={'About'} icon={<GoPerson className='dark:text-white text-[25px]' />} />
-            <main className="container px-4 md:px-5 py-5 md:py-7 gap-10">
-                <div>
-                    <h3 className='text-black dark:text-white font-medium text-[21px] md:text-[24px]'>Experience</h3>
-                    <ul>
-                        {Experience()}
-                    </ul>
-                </div>
-                <div>
-                    <h3 className='text-black dark:text-white  font-medium text-[21px] md:text-[24px] mt-4'>Education</h3>
-                    <ul>
-                        {Education()}
-                    </ul>
-                </div>
+            <main className="container px-4 py-5 md:py-7 md:px-5  gap-10">
+                <h3 className='text-black dark:text-white font-medium text-[21px] md:text-[24px] mb-[16px] md:mb-[24px]'>Experience</h3>
+                <ul>
+                    {Experience()}
+                </ul>
+                
+                <h3 className='text-black dark:text-white  font-medium text-[21px] md:text-[24px] mt-4'>Education</h3>
+                <ul>
+                    {Education()}
+                </ul>
             </main>
         </>
     )
