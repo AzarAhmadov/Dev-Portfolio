@@ -44,10 +44,10 @@ const Experience = () => {
                     desc={
                         <>
                             <li>
-                                <p className='text-[13px] dark:text-[#ffffffe0] mb-2 md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] mb-2 md:text-[15px] text-gray'>
                                     - I developed the front-end part of the 'Ən Tez Xidmət' project, which is used by people in many parts of the country."
                                 </p>
-                                <p className='text-[13px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                <p className='text-[12px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
                                     - I participated in many different projects using the latest technologies.
                                 </p>
                             </li>
@@ -119,53 +119,53 @@ const Experience = () => {
                                 </p>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://www.tonnyblack.com.tr/Default.aspx'} className='dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> tonnyblack.com
+                                <Link target='_blank' href={'https://www.tonnyblack.com.tr/Default.aspx'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> tonnyblack.com
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://seesawprotocol.io/'} className=' dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> seesawprotocol.io
+                                <Link target='_blank' href={'https://seesawprotocol.io/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> seesawprotocol.io
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://au-rum.vercel.app/'} className='dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> au-rum.vercel.app
+                                <Link target='_blank' href={'https://au-rum.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> au-rum.vercel.app
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://www.medresetuzzehra.com/'} className=' dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> medresetuzzehra.com
+                                <Link target='_blank' href={'https://www.medresetuzzehra.com/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> medresetuzzehra.com
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://entez.az/'} className='text-[15px] dark:text-[#ffffffeb] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> entez.az
+                                <Link target='_blank' href={'https://entez.az/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> entez.az
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://green-card.vercel.app/'} className='dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> green-card.vercel.app
+                                <Link target='_blank' href={'https://green-card.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> green-card.vercel.app
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://makonu.vercel.app/'} className='dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> makonu.vercel.app
+                                <Link target='_blank' href={'https://makonu.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> makonu.vercel.app
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://geo-pro.vercel.app/'} className='text-[15px] dark:text-[#ffffffeb] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> geo-pro.vercel.app
+                                <Link target='_blank' href={'https://geo-pro.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> geo-pro.vercel.app
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://parkevents.vercel.app/'} className='text-[15px] dark:text-[#ffffffeb] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> parkevents.vercel.app
+                                <Link target='_blank' href={'https://parkevents.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> parkevents.vercel.app
                                 </Link>
                             </li>
                             <li>
-                                <Link target='_blank' href={'https://viona-mebel.vercel.app/'} className='dark:text-[#ffffffeb] text-[15px] text-gray flex items-center gap-2 hover:text-black transition-all'>
-                                    - <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> viona-mebel.vercel.app
+                                <Link target='_blank' href={'https://viona-mebel.vercel.app/'} className='dark:text-[#ffffffeb] text-[14px] text-gray flex items-center w-[max-content] gap-2 hover:scale-105 dark:hover:text-white hover:text-black transition-all'>
+                                    <FaLink className='text-[15px] text-gray dark:text-[#ffffffeb]' /> viona-mebel.vercel.app
                                 </Link>
                             </li>
                         </>
