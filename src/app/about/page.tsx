@@ -181,11 +181,7 @@ const Experience = () => {
 const Education = () => {
     return (
         <>
-<<<<<<< HEAD
-            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6'>
-=======
             <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] py-4 md:py-6]'>
->>>>>>> d6ddec5be8584c6ca588f947dc76e7cb009f1e13
                 <Info
                     title='ATL Academy'
                     companyIcon={<RiBookOpenLine className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
