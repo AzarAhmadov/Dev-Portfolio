@@ -6,21 +6,26 @@
 @layer utilities {
   html {
     font-family: "Poppins", sans-serif;
-}
   }
 
+  body.active{
+    overflow: hidden;
+  }
+
+}
+
 .lazy-load-image-background {
-    width: 100% !important;
+  width: 100% !important;
 }
 
 html ::-webkit-scrollbar,
 body ::-webkit-scrollbar {
-    width: 5px;
-    border: 1px solid rgba(100, 125, 238, 0.3490196078);
+  width: 5px;
+  border: 1px solid rgba(100, 125, 238, 0.3490196078);
 }
 
 html ::-webkit-scrollbar-thumb,
 body ::-webkit-scrollbar-thumb {
-    background: #000;
-    border-radius: 10px;
+  background: #000;
+  border-radius: 10px;
 }
