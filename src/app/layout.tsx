@@ -21,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html suppressHydrationWarning={true} lang="en">
       <link rel="icon" type="image/x-icon" href='/logo.png' />
       <meta name="keywords" content="Azar Ahmadov, Azər Əhmədov, Web Developer, Front-end developer, Html, Css, Js, Javascript, React, React.js, Next js, Node, Node.js" />
       <meta name="robots" content="index, follow" />
