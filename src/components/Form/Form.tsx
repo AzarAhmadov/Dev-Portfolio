@@ -144,7 +144,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                         <div className="flex justify-center">
                             <button
                                 type="submit"
-                                className={`${isFormValid ? 'opacity-100' : 'opacity-20 cursor-not-allowed'} bg-black px-6 flex items-center gap-2 text-16 hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800`}
+                                className={`${isFormValid ? 'opacity-100 hover:scale-110' : 'opacity-20 cursor-not-allowed'} bg-black px-6 flex items-center gap-2 text-16 transition-all py-3 text-white rounded-full hover:bg-gray-800`}
                                 disabled={!isFormValid}
                             >
                                 Send Message <TbSend className='text-white text-18px' />
