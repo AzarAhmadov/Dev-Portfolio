@@ -3,9 +3,11 @@
 @tailwind utilities;
 @import url(./library.css);
 
-html {
+@layer utilities {
+  html {
     font-family: "Poppins", sans-serif;
 }
+  }
 
 .lazy-load-image-background {
     width: 100% !important;
