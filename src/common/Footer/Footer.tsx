@@ -12,7 +12,10 @@ const Footer = () => {
 
     const [modal, setModal] = useState(false)
 
-    const toggle = () => setModal(!modal)
+    const toggle = () => {
+        document.body.classList.toggle('active')
+        setModal(!modal)
+    }
 
     return (
         <>
