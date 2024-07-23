@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const Experience = () => {
     return (
         <>
-            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] pb-4'>
-                <Info
+            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] mb-4 md:mb-0 pb-4'>
+            <Info
                     title='Front-End | Mentor'
                     company='atlacademy.az'
                     companyIcon={<PiBuildings className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
