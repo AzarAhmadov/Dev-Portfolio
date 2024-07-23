@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import { Poppins } from 'next/font/google'
 const Footer = dynamic(() => import('@/common/Footer/Footer'))
 import Navigation from '@/common/Navigation/Navigation'
 import '@/css/style.css'
@@ -15,13 +16,18 @@ const metadata = {
   locale: "en_US"
 };
 
+const font_poppions = Poppins({
+  weight: ['400', '500', '600', '700'],
+  subsets: ['latin'],
+})
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html suppressHydrationWarning={true} lang="en">
+    <html className={font_poppions.className} suppressHydrationWarning={true} lang="en">
       <link rel="icon" type="image/x-icon" href='/logo.png' />
       <meta name="keywords" content="Azar Ahmadov, Azər Əhmədov, Web Developer, Front-end developer, Html, Css, Js, Javascript, React, React.js, Next js, Node, Node.js" />
       <meta name="robots" content="index, follow" />

@@ -4,14 +4,9 @@
 @import url(./library.css);
 
 @layer utilities {
-  html {
-    font-family: "Poppins", sans-serif;
-  }
-
   body.active{
     overflow: hidden;
   }
-
 }
 
 .lazy-load-image-background {
