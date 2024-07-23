@@ -15,7 +15,7 @@ const Info: FC<InfoType> = ({ icon, title, desc, company, date, companyIcon }) =
                     {company}
                 </span>
                 {
-                    desc && <ul className='flex flex-col gap-[10px] mt-1'>
+                    desc && <ul className='flex flex-col gap-[5px] md:gap-[10px] mt-1'>
                         {desc}
                     </ul>
                 }
