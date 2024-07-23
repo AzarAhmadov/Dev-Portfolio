@@ -19,6 +19,40 @@ const Experience = () => {
         <>
             <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] pb-4'>
                 <Info
+                    title='Front-End | Mentor'
+                    company='atlacademy.az'
+                    companyIcon={<PiBuildings className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
+                    desc={
+                        <>
+                            <li>
+                                <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                    - I help improve coding skills
+                                </p>
+                            </li>
+                            <li>
+                                <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                    - I inform about new technologies and industry trends
+                                </p>
+                            </li>
+                            <li>
+                                <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                    - I create conditions for students to discover their potential and surpass themselves
+                                </p>
+                            </li>
+                            <li>
+                                <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
+                                    - I help them polish their problem-solving skills while teaching them the ins and outs of coding
+                                </p>
+                            </li>
+                        </>
+                    }
+                    date='Jul 2024 - Present'
+                    icon={<IoCodeSlash className='text-[21px] dark:text-white flex-shrink-0 flex items-center justify-center h-[23px] md:h-[30px]' />}
+                />
+            </li>
+
+            <li className='border-b-[1px] border-b-[#00000011] dark:border-b-[#ffffff1c] pb-4 md:py-6'>
+                <Info
                     title='Founder | Job Hub Center'
                     company='jobhubcenter.com'
                     companyIcon={<PiBuildings className='text-gray dark:text-[#ffffffe8] text-[17px] md:text-[20px]' />}
@@ -77,7 +111,7 @@ const Experience = () => {
                         <>
                             <li>
                                 <p className='text-[12px] leading-[21px] dark:text-[#ffffffe0] md:text-[15px] text-gray'>
-                                    - I taught the 60-hour curriculum. Topics were Html 5 Css and JavaScript.
+                                    - I taught the 60-hour curriculum. Topics were Html 5 CSS 3 and JavaScript ES6+
                                 </p>
                             </li>
                         </>
@@ -204,7 +238,7 @@ const page = () => {
                 <ul>
                     {Experience()}
                 </ul>
-                
+
                 <h3 className='text-black dark:text-white  font-medium text-[21px] md:text-[24px] mt-4'>Education</h3>
                 <ul>
                     {Education()}
