@@ -35,7 +35,7 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
         return !newErrors.name && !newErrors.email && !newErrors.message;
     }
 
-    const isFormValid = () => formControl.name != "" && formControl.email != "" && formControl.message != "";
+    const isFormValid = formControl.name !== "" && formControl.email !== "" && formControl.message !== "";
 
     const formReset = () => {
         formControl.name = ''
@@ -142,7 +142,11 @@ const Form: FC<ModalType> = ({ modal, toggle }) => {
                             />
                         </div>
                         <div className="flex justify-center">
-                            <button type="submit" className="bg-black opacity-100 px-6 flex items-center gap-2 text-16 hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800">
+                            <button
+                                type="submit"
+                                className={`${isFormValid ? 'opacity-100' : 'opacity-20 cursor-not-allowed'} bg-black px-6 flex items-center gap-2 text-16 hover:scale-110 transition-all py-3 text-white rounded-full hover:bg-gray-800`}
+                                disabled={!isFormValid}
+                            >
                                 Send Message <TbSend className='text-white text-18px' />
                             </button>
                         </div>
