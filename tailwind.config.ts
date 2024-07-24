@@ -6,7 +6,10 @@ const config: Config = {
   ],
   theme: {
     container: {
-      center: true
+      center: true,
+      screens: {
+        xl: "1280px"
+      }
     },
     fontWeight: {
       thin: '300',
