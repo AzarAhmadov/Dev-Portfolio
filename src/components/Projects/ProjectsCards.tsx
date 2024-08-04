@@ -12,7 +12,7 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
             <div className='ps-3 pe-3 pt-3'>
                 <div className='flex rounded-[10px]'>
                     <LazyLoadImage
-                        className='w-full object-cover h-[200px] md:h-[250px] lg:h-[370px] rounded-[10px]'
+                        className='w-full aspect-[16/9] rounded-[10px]'
                         alt={item.name}
                         loading='lazy'
                         effect="blur"
