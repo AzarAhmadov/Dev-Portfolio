@@ -6,7 +6,7 @@ export const StackData = [
     },
     {
         name: "Css 3",
-        logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+        logo: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
         link: "https://en.wikipedia.org/wiki/CSS"
     },
     {
@@ -134,7 +134,7 @@ export const ProjectsData = [
                 title: "React"
             },
             {
-                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
                 title: "TypeScript"
             },
             {
@@ -161,7 +161,7 @@ export const ProjectsData = [
                 title: "Next.js"
             },
             {
-                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
                 title: "TypeScript"
             },
             {
@@ -207,7 +207,7 @@ export const ProjectsData = [
                 title: "React"
             },
             {
-                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
                 title: "TypeScript"
             },
             {
@@ -245,7 +245,7 @@ export const ProjectsData = [
                 title: "Next.js"
             },
             {
-                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
                 title: "TypeScript"
             },
             {
@@ -264,7 +264,7 @@ export const ProjectsData = [
                 title: "Next.js"
             },
             {
-                img: "https://cloud.egbontech.com/uploads/posts/1716756302.images__8_.png",
+                img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
                 title: "TypeScript"
             },
             {
@@ -314,7 +314,7 @@ export const ProjectsData = [
                 title: "Bootstrap"
             },
             {
-                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
                 title: "Css 3"
             },
             {
@@ -337,7 +337,7 @@ export const ProjectsData = [
                 title: "Bootstrap"
             },
             {
-                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
                 title: "Css 3"
             },
             {
@@ -398,7 +398,7 @@ export const ProjectsData = [
                 title: "React"
             },
             {
-                img: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_640.png",
+                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
                 title: "Css 3"
             },
         ]
