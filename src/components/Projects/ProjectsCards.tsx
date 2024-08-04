@@ -30,7 +30,7 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
                 {item.lang.map((langItem, langIdx) => (
                     <img
                         key={langIdx}
-                        className='md:w-10 md:h-10 w-8 h-8 object-cover rounded-full'
+                        className='md:w-10 md:h-10 w-8 h-8 object-cover object-center rounded-full'
                         src={langItem.img}
                         alt={langItem.title}
                     />
