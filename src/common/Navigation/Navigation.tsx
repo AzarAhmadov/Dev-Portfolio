@@ -18,28 +18,28 @@ const Navigation = () => {
                 <Link
                     aria-label="Home"
                     href={'/'}
-                    className={`${pathname === '/' ? 'bg-[#000] text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
+                    className={`${pathname === '/' ? 'bg-gradient-to-l from-zinc-900 to-stone-700 text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
                 >
                     <IoHomeOutline className={`${pathname === '/' ? 'scale-90' : 'scale-100'}  text-[25px]`} />
                 </Link>
                 <Link
                     aria-label="About"
                     href={'/about'}
-                    className={`${pathname === '/about' ? 'bg-[#000] text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
+                    className={`${pathname === '/about' ? 'bg-gradient-to-l from-zinc-900 to-stone-700 text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
                 >
                     <LuUser2 className={`${pathname === '/about' ? 'scale-90' : 'scale-100'} text-[25px]`} />
                 </Link>
                 <Link
                     aria-label="Tech Box"
                     href={'/tech-box'}
-                    className={`${pathname === '/tech-box' ? 'bg-[#000] text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
+                    className={`${pathname === '/tech-box' ? 'bg-gradient-to-l from-zinc-900 to-stone-700 text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
                 >
                     <FaCode className={`${pathname === '/tech-box' ? 'scale-90' : 'scale-100'} text-[25px]`} />
                 </Link>
                 <Link
                     aria-label="Projects"
                     href={'/projects'}
-                    className={`${pathname === '/projects' ? 'bg-[#000] text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
+                    className={`${pathname === '/projects' ? 'bg-gradient-to-l from-zinc-900 to-stone-700 text-white' : 'bg-[#fff]'} transition-all shadow-md rounded-full w-[50px] h-[50px] flex items-center justify-center shrink-0`}
                 >
                     <GrPersonalComputer className={`${pathname === '/projects' ? 'scale-90' : 'scale-100'} text-[25px]`} />
                 </Link>
