@@ -28,12 +28,14 @@ const ProjectsCard: FC<ProjectsDataType> = ({ item }) => {
             </div>
             <div className='flex items-center gap-3 border-t-[1px] py-4 px-4 border-t-[#0000001d] dark:border-t-[#ffffff2b]'>
                 {item.lang.map((langItem, langIdx) => (
-                    <img
-                        key={langIdx}
-                        className='md:w-10 md:h-10 w-8 h-8 object-cover object-center rounded-full'
-                        src={langItem.img}
-                        alt={langItem.title}
-                    />
+                    <figure>
+                        <img
+                            key={langIdx}
+                            className='md:w-10 md:h-10 w-8 h-8 object-cover object-center rounded-full'
+                            src={langItem.img}
+                            alt={langItem.title}
+                        />
+                    </figure>
                 ))}
             </div>
         </div>
