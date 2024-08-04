@@ -27,7 +27,7 @@ const Footer = () => {
 
                 <button disabled={modal} onClick={toggle} className='my-4 flex items-center gap-2 dark:bg-white dark:hover:text-black dark:hover:bg-[#ffffffe7] md:px-5 px-4 py-2 w-[max-content] md:py-3 border-[1px] shadow-md border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all'> Let's Contact <IoMdArrowForward className='text-[20px]' /> </button>
 
-                <Link aria-label="gmail" href={'mailto:azarahmadovdev@gmail.com'} className='text-[14px] dark:border-[#ffffffb6] dark:text-[#ffffffd3] mt-1 border-[1px] rounded-full px-3 py-1 text-gray border-[#00000044]'>
+                <Link aria-label="gmail" href={'mailto:azarahmadovdev@gmail.com'} className='hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black  transition-all hover:scale-105  text-[14px] dark:border-[#ffffffb6] dark:text-[#ffffffd3] mt-1 border-[1px] rounded-full px-3 py-1 text-gray border-[#00000044]'>
                     azarahmadovdev@gmail.com
                 </Link>
 
