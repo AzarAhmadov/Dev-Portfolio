@@ -10,7 +10,7 @@ const Hero = () => {
         <section>
             <div className='pt-2 md:pt-5 flex justify-center items-center flex-col'>
                 <div className='md:w-[320px] w-[230px] h-[230px] relative md:h-[320px]'>
-                    <figure className='border-2 border-[#00000016] h-full rounded-full'>
+                    <figure className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
                         <Image className='rounded-full p-2 object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
                     </figure>
                 </div>
