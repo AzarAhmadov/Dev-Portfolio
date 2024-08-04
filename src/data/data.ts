@@ -6,7 +6,7 @@ export const StackData = [
     },
     {
         name: "Css 3",
-        logo: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
+        logo: "https://img-c.udemycdn.com/course/480x270/522050_6f76.jpg",
         link: "https://en.wikipedia.org/wiki/CSS"
     },
     {
@@ -314,7 +314,7 @@ export const ProjectsData = [
                 title: "Bootstrap"
             },
             {
-                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
+                img: "https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png",
                 title: "Css 3"
             },
             {
@@ -337,7 +337,7 @@ export const ProjectsData = [
                 title: "Bootstrap"
             },
             {
-                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
+                img: "https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png",
                 title: "Css 3"
             },
             {
@@ -398,7 +398,7 @@ export const ProjectsData = [
                 title: "React"
             },
             {
-                img: "https://cdn.dribbble.com/users/66221/screenshots/1655604/media/e4330d62b9e74eaf987923c8f9cbf51d.png",
+                img: "https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png",
                 title: "Css 3"
             },
         ]
