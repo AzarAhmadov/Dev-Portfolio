@@ -9,8 +9,10 @@ const Hero = () => {
     return (
         <section>
             <div className='pt-2 md:pt-5 flex justify-center items-center flex-col'>
-                <div className="md:w-[320px] w-[230px] h-[230px] relative md:h-[320px] rounded-full border-[10px] dark:border-[#ffffff2e] border-[#00000009]">
-                    <Image className='rounded-full object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
+                <div className='md:w-[320px] w-[230px] h-[230px] relative md:h-[320px]'>
+                    <figure className='border-2 border-[#00000016] h-full rounded-full'>
+                        <Image className='rounded-full p-2 object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
+                    </figure>
                 </div>
                 <div className='text-center pt-3 md:px-[70px]'>
                     <h1 className='text-black dark:text-white text-[22px] md:text-[40px] font-medium'>
@@ -37,7 +39,7 @@ const Hero = () => {
                     </a>
                 </div>
                 <div className='flex dark:text-black md:justify-end justify-center md:w-[33.3%] w-[100%]'>
-                    <Link className=' md:text-[17px] dark:bg-white dark:hover:bg-[#fffb] dark:hover:text-black text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-sm border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/about'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
+                    <Link className='md:text-[17px] dark:bg-white dark:hover:bg-[#fffb] dark:hover:text-black text-[15px] flex items-center gap-2 md:px-5 md:py-3 py-2 px-4 border-[1px] shadow-sm border-[#00000023] rounded-full hover:bg-black hover:text-white transition-all' href={'/about'}> More about Me <IoMdArrowForward className='text-[20px]' /> </Link>
                 </div>
             </div>
         </section>
