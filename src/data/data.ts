@@ -370,25 +370,6 @@ export const ProjectsData = [
         ]
     },
     {
-        name: "Portfolio",
-        link: "https://azarahmadov.vercel.app/",
-        img: "/p-14.png",
-        lang: [
-            {
-                img: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
-                title: "Next.js"
-            },
-            {
-                img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-                title: "Sass"
-            },
-            {
-                img: "https://media.licdn.com/dms/image/D4D12AQEYCFvOjhb8rQ/article-cover_image-shrink_600_2000/0/1679941246531?e=2147483647&v=beta&t=A3azwRlUOpX_tBCILj49HMVojFrvGUZO8vC_yBi_dkQ",
-                title: "Aos.js"
-            },
-        ]
-    },
-    {
         name: "Recipe App",
         link: "https://react-food-recipe-app.vercel.app/",
         img: "/p-12.png",
