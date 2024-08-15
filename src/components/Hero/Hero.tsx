@@ -30,7 +30,7 @@ const Hero = () => {
                                     className='rounded-full p-2 object-cover object-center'
                                     src='/back.png'
                                     layout='fill'
-                                    alt='Bac Image'
+                                    alt='Back Image'
                                 />
                             </div>
                         </div>
