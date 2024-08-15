@@ -11,7 +11,7 @@ const Hero = () => {
             <div className='pt-2 md:pt-5 flex justify-center items-center flex-col'>
                 <div className='md:w-[320px] w-[230px] h-[230px] relative md:h-[320px]'>
                     <figure className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
-                        <Image className='rounded-full p-2 object-center' src={'/hero.jpg'} fill objectFit='cover' alt='Azar Ahmadov' />
+                        <Image className='rounded-full p-2 object-center' src={'/azar-ahmadov.jpeg'} fill objectFit='cover' alt='Azar Ahmadov' />
                     </figure>
                 </div>
                 <div className='text-center pt-3 md:px-[70px]'>
