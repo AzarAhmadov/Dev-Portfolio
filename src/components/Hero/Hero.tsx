@@ -9,10 +9,32 @@ const Hero = () => {
     return (
         <section>
             <div className='pt-2 md:pt-5 flex justify-center items-center flex-col'>
-                <div className='md:w-[320px] w-[230px] h-[230px] relative md:h-[320px]'>
-                    <figure className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
-                        <Image className='rounded-full p-2 object-center' src={'/azar-ahmadov.jpeg'} fill objectFit='cover' alt='Azar Ahmadov' />
-                    </figure>
+                <div className="group w-[220px] h-[220px] md:h-[320px] md:w-[320px] [perspective:1000px]">
+                    <div className="relative h-full w-full transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                        {/* Front Side */}
+                        <div className="absolute inset-0">
+                            <div className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
+                                <Image
+                                    className='rounded-full p-2 object-cover'
+                                    src='/front.png'
+                                    layout='fill'
+                                    alt='Azar Ahmadov'
+                                />
+                            </div>
+                        </div>
+
+                        {/* Back Side */}
+                        <div className="absolute inset-0 h-full w-full rounded-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                            <div className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
+                                <Image
+                                    className='rounded-full p-2 object-cover object-center'
+                                    src='/back.png'
+                                    layout='fill'
+                                    alt='Arka yüz resmi'
+                                />
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className='text-center pt-3 md:px-[70px]'>
                     <h1 className='text-black dark:text-white text-[22px] md:text-[40px] font-medium'>
@@ -21,7 +43,7 @@ const Hero = () => {
                     <h2 className='text-black dark:text-white  text-[17px] md:text-[25px] font-normal mt-1 mb-4'>
                         Front-End Developer
                     </h2>
-                    <p className='text-[14px] dark:text-[#ffffffd0]  leading-[20px] md:text-[17px] font-thin md:leading-[26px] text-gray'>
+                    <p className='text-[13px] dark:text-[#ffffffd0]  leading-[20px] md:text-[17px] font-thin md:leading-[26px] text-gray'>
                         I currently reside in Baku. For about 4 years, I have been actively trying to improve my skills in the field of technology and constantly applying what I have learned. I had the opportunity to work in various technology companies, and I am pleased about that.
                     </p>
                 </div>
