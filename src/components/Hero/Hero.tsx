@@ -25,12 +25,12 @@ const Hero = () => {
 
                         {/* Back Side */}
                         <div className="absolute inset-0 h-full w-full rounded-full [transform:rotateY(180deg)] [backface-visibility:hidden]">
-                            <div className='border-2 border-[#00000016] dark:border-[#ffffff40] h-full rounded-full'>
+                            <div className='h-full rounded-full'>
                                 <Image
                                     className='rounded-full p-2 object-cover object-center'
                                     src='/back.png'
                                     layout='fill'
-                                    alt='Arka yüz resmi'
+                                    alt='Bac Image'
                                 />
                             </div>
                         </div>
