@@ -5,8 +5,11 @@ import { CiLight } from "react-icons/ci";
 import { FiMoon } from "react-icons/fi";
 
 const Theme = () => {
-  const [theme, setTheme] = useState(() => {
-    return localStorage.getItem("theme") || "dark";
+  const [theme, setTheme] = useState<string>(() => {
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("theme") || "dark";
+    }
+    return "light";
   });
 
   const handleChange = () => {
