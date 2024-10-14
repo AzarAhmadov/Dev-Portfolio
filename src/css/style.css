@@ -5,8 +5,15 @@
 @import url(./library.css);
 
 @layer base {
+  body {
+    transition: 400ms all;
+  }
   body.active {
-    overflow: hidden;
+    @apply overflow-hidden;
+  }
+
+  body.dark {
+    @apply bg-[#0a0d19];
   }
 
   ::-webkit-scrollbar {
