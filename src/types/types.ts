@@ -1,63 +1,64 @@
-import { ReactElement } from "react"
+import { ReactElement } from "react";
 
 // Heading Type
 export type HeadingType = {
-    title: string
-    link: string
-    href: string
-}
+  title: string;
+  link: string;
+  href: string;
+};
 
 // Stack Type
 type Stack = {
-    name: string
-    link: string
-    logo: string
-}
+  name: string;
+  link: string;
+  logo: string;
+};
 
 export type StackItem = {
-    item: Stack
-}
+  item: Stack;
+};
 
 // Project Type
 type Project = {
-    name: string;
-    link: string;
+  name: string;
+  link: string;
+  img: string;
+  githubLink: string;
+  lang: {
     img: string;
-    lang: {
-        img: string;
-        title: string;
-    }[];
-}
+    title: string;
+  }[];
+};
 
 export type ProjectsDataType = {
-    item: Project;
+  item: Project;
 };
 
 // Title
 export type TitleType = {
-    title: string
-    icon: ReactElement
-}
+  title: string;
+  icon: ReactElement;
+};
 
 // Info
 export type InfoType = {
-    icon: ReactElement
-    title: string
-    desc?: ReactElement
-    company: string
-    companyIcon: ReactElement
-    date: string
-}
+  icon: ReactElement;
+  title: string;
+  desc?: ReactElement;
+  company: string;
+  companyIcon: ReactElement;
+  date: string;
+};
 
 // Modal
 export type ModalType = {
-    toggle: () => void
-    modal: boolean
-}
+  toggle: () => void;
+  modal: boolean;
+};
 
 // Email
 export type EmailType = {
-    name: string
-    email: string
-    message: string
-}
+  name: string;
+  email: string;
+  message: string;
+};
