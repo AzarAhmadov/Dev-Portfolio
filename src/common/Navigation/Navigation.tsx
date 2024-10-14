@@ -4,6 +4,7 @@ import React from "react";
 import { NavLinks } from "@/data/data";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Theme from "@/components/Theme/Theme";
 
 const Navigation = () => {
   const pathName = usePathname();

@@ -37,7 +37,7 @@ const Theme = () => {
 
   return (
     <button
-      className="fixed border border-[#fff]/20 border-dashed left-4 bottom-4 rounded-full bg-black text-white text-[30px] cursor-pointer p-2"
+      className="fixed border right-4 bottom-4 border-[#fff]/20 border-dashed w-max rounded-full bg-black text-white text-[30px] cursor-pointer p-2"
       onClick={handleChange}
     >
       {theme === "light" ? <FiMoon /> : <CiLight />}
