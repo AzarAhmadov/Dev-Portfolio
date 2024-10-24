@@ -46,7 +46,7 @@ const Experience = () => {
                             </li>
                         </>
                     }
-                    date='Jul 2024 - Present'
+                    date='May 2024 - Oct 2024'
                     icon={<IoCodeSlash className='text-[21px] dark:text-white flex-shrink-0 flex items-center justify-center h-[23px] md:h-[30px]' />}
                 />
             </li>
