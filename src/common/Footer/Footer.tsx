@@ -7,6 +7,7 @@ import { FaGithub, FaWhatsapp } from 'react-icons/fa'
 import { IoMdArrowForward } from 'react-icons/io'
 import dynamic from 'next/dynamic'
 const Form = dynamic(() => import('@/components/Form/Form'))
+import { GiWolfHead } from "react-icons/gi";
 
 const Footer = () => {
 
@@ -53,8 +54,8 @@ const Footer = () => {
                     © Copyright 2024. All rights Reserved.
                 </p>
 
-                <p className='mt-2 text-[13px] md:text-[15px] dark:text-white font-medium'>
-                    <span className='text-gray dark:text-[#ffffffcf] font-normal'>Made by</span> Azar Ahmadov
+                <p className='mt-2 text-[13px] md:text-[15px] dark:text-white font-medium flex items-center'>
+                    <span className='text-gray dark:text-[#ffffffcf] font-normal'>Made by</span> <GiWolfHead className='text-[22px] ms-2 me-1' /> Azar Ahmadov
                 </p>
 
             </footer>

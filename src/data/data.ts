@@ -2,6 +2,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
 import { FaCode } from "react-icons/fa";
 import { GrPersonalComputer } from "react-icons/gr";
+import { HiCode } from "react-icons/hi";
 
 export const NavLinks = [
   {
@@ -17,7 +18,7 @@ export const NavLinks = [
   {
     ariaLabel: "Tech Box",
     href: "/tech-box",
-    icon: FaCode,
+    icon: HiCode,
   },
   {
     ariaLabel: "Projects",
