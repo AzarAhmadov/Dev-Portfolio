@@ -1,6 +1,5 @@
 import { IoHomeOutline } from "react-icons/io5";
 import { LuUser2 } from "react-icons/lu";
-import { FaCode } from "react-icons/fa";
 import { GrPersonalComputer } from "react-icons/gr";
 import { HiCode } from "react-icons/hi";
 
@@ -149,8 +148,8 @@ export const ProjectsData = [
         title: "Framer Motion",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -169,8 +168,8 @@ export const ProjectsData = [
         title: "TypeScript",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
       {
         img: "https://miro.medium.com/v2/resize:fit:1400/1*OgfGgWfcV4JEKUvNxf2AuA.png",
@@ -179,6 +178,30 @@ export const ProjectsData = [
       {
         img: "https://avatars.githubusercontent.com/u/8546082?s=280&v=4",
         title: "React i18",
+      },
+    ],
+  },
+  {
+    name: "Aster News",
+    link: "https://react-news-app0.vercel.app/",
+    img: "/p-15.png",
+    githubLink: "https://github.com/AzarAhmadov/News-App",
+    lang: [
+      {
+        img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+        title: "React",
+      },
+      {
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+        title: "TypeScript",
+      },
+      {
+        img: "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/redux-icon.png",
+        title: "Redux Toolkit",
+      },
+      {
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -205,8 +228,8 @@ export const ProjectsData = [
         title: "Mongo DB",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -225,8 +248,8 @@ export const ProjectsData = [
         title: "Hygraph",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -247,6 +270,10 @@ export const ProjectsData = [
       {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQbmStvq6m2etalyaoEq0w3FGAXfz0B7JKSA&s",
         title: "React Query",
+      },
+      {
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -311,12 +338,8 @@ export const ProjectsData = [
         title: "Mongo DB",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
-      },
-      {
-        img: "https://pbs.twimg.com/profile_images/1370357699372810243/94fjvw_p_400x400.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
     ],
   },
@@ -404,8 +427,8 @@ export const ProjectsData = [
         title: "Next.js",
       },
       {
-        img: "https://sass-lang.com/assets/img/styleguide/seal-color.png",
-        title: "Sass",
+        img: "https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp",
+        title: "Tailwind CSS",
       },
       {
         img: "https://cdn.icon-icons.com/icons2/2699/PNG/512/rapidapi_logo_icon_168879.png",
