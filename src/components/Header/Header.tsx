@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FC } from "react";
 import { CiLinkedin } from "react-icons/ci";
 import { FaWhatsapp, FaGithub } from "react-icons/fa";
+import { FiYoutube } from "react-icons/fi";
 
 const Header: FC = () => {
   return (
@@ -15,6 +16,17 @@ const Header: FC = () => {
         </div>
         <div>
           <ul className="flex gap-3">
+            <li>
+              <Link
+                target="_blank"
+                href={"https://www.youtube.com/@azarahmadovtech"}
+              >
+                <FiYoutube
+                  aria-label="YouTube"
+                  className="text-icons-bg dark:text-white dark:hover:text-[#ffffffc6] text-[30px] hover:text-black transition-all hover:scale-110"
+                />
+              </Link>
+            </li>
             <li>
               <Link
                 target="_blank"
