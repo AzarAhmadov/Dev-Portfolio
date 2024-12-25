@@ -3,8 +3,8 @@ import { ReactElement } from "react";
 // Heading Type
 export type HeadingType = {
   title: string;
-  link: string;
-  href: string;
+  link?: string;
+  href?: string;
 };
 
 // Stack Type
