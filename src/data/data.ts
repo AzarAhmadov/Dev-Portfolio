@@ -457,11 +457,12 @@ export const ProjectsData = [
 
 export const YoutubeVideos = [
   {
-    src: "https://www.youtube.com/embed/rUHL6oEpU7g",
-    title: "Front-End Developer kimdir ?",
+    src: "https://www.youtube.com/embed/mo_RfAC-7nA",
+    title:
+      "Bu videoda sizə JavaScript ilə əlaqəli qısa və effektiv məsləhətlər təqdim edirəm!",
   },
   {
-    src: "https://www.youtube.com/embed/vNTxqJMKHCw",
-    title: "İstifadəçinin interneti kəsildikdə onu necə məlumatlandıra bilərik ?",
+    src: "https://www.youtube.com/embed/lLF9qumzh0k",
+    title: "Javascript ilə rəqəmin tək və ya cüt olduğunu yoxlamaq",
   },
 ];
